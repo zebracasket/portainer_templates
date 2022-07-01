@@ -1,4 +1,4 @@
-~~Nov21|Dec21|Jan22|Feb22|Mar22|Apr22|May22|Jun22 ~~
+~~Nov21|Dec21|Jan22|Feb22|Mar22|Apr22|May22|Jun22~~
 
 **July 2022: Keep on adding stuff!**
 # Portainer V2 Templates for Selfhosted Projects/Homelabs
