@@ -1695,6 +1695,8 @@
     {
       "categories": ["Tools"],
       "description": "Facebox detects and identifies faces in photos. You can teach facebox with as little as one sample image.",
+      "env": [
+      ],
       "logo": "https://machinebox.io/assets/shared/static/img/machina.svg",
       "name": "Facebox",
       "platform": "linux",
