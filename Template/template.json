@@ -3231,7 +3231,7 @@
       "categories": ["Tools"],
       "description": "Self-hosted snippet manager.",
       "image": "snowmean/snibox-sqlite:latest",
-      "logo": "https://raw.githubusercontent.com/xneo/portainer_templates/master/Images/snibox.png",
+      "logo": "https://user-images.githubusercontent.com/312873/35063615-acf68302-fbd8-11e7-91c5-0b3b6f5966c4.png",
       "name": "Snibox",
       "note": "Label-oriented interface with search. Supports various programming languages, markdown, plain text.",
       "platform": "linux",
