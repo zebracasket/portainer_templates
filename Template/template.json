@@ -1692,6 +1692,19 @@
       "title": "GoAccess for NPM logs",
       "type": 3
     },
+    {
+      "categories": ["Tools"],
+      "description": "Facebox detects and identifies faces in photos. You can teach facebox with as little as one sample image.",
+      "logo": "https://machinebox.io/assets/shared/static/img/machina.svg",
+      "name": "Facebox",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "Template/Stack/facebox.yml",
+        "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "title": "Facebox",
+      "type": 3
+    },
         {
           "label": "VALIDATION",
           "name": "VALIDATION",
