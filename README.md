@@ -33,7 +33,7 @@ All templates are already configured to bind mount to various places on your dri
 ## Update:
 
 **05/07/2022**
-  - massCode
+  - massCode [no Docker implementation yet]
   
 **01/07/2022**
   - Facebox [implementing config it's a WIP]
