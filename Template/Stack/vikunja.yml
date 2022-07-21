@@ -34,5 +34,5 @@ services:
     ports:
       - 1180:80
     environment:
-      VIKUNJA_API_URL: http://127.0.0.1:3456/api/v1
+      VIKUNJA_API_URL: http://10.11.11.128:3456/api/v1
     restart: unless-stopped
