@@ -21,7 +21,7 @@ services:
       VIKUNJA_DATABASE_USER: vikunja
       VIKUNJA_DATABASE_DATABASE: vikunja
       VIKUNJA_SERVICE_JWTSECRET: <a super secure random secret>
-      VIKUNJA_SERVICE_FRONTENDURL: http://<your public frontend url with slash>/
+      VIKUNJA_SERVICE_FRONTENDURL: http://127.0.0.1:3456/api/v1/
     ports:
       - 3456:3456
     volumes:
@@ -34,5 +34,5 @@ services:
     ports:
       - 80:80
     environment:
-      VIKUNJA_API_URL: http://<your-ip-here>:3456/api/v1
+      VIKUNJA_API_URL: http://127.0.0.1:3456/api/v1
     restart: unless-stopped
