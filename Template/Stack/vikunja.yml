@@ -21,7 +21,7 @@ services:
       VIKUNJA_DATABASE_USER: vikunja
       VIKUNJA_DATABASE_DATABASE: vikunja
       VIKUNJA_SERVICE_JWTSECRET: lgdfjgdlamsvcnls
-      VIKUNJA_SERVICE_FRONTENDURL: http://127.0.0.1:3456/api/v1/
+      VIKUNJA_SERVICE_FRONTENDURL: http://10.11.11.128:3456/api/v1/
     ports:
       - 3456:3456
     volumes:
