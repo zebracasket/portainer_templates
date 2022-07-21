@@ -1256,6 +1256,35 @@
       "type": 3
     },
     {
+      "categories": ["Tools", "Productivity"],
+      "description": "The to-do app to organize your life.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "1000",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "PORT",
+          "name": "PORT"
+        }
+      ],
+      "logo": "https://vikunja.io/images/vikunja.png",
+      "name": "Vikunja",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "Template/Stack/vikunja.yml",
+        "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "title": "Vikunja",
+      "type": 3
+    },	  
+    {
       "categories": ["Multimedia", "Audio"],
       "description": "Self hosted audiobook and podcast server",
       "env": [
