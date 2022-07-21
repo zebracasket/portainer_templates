@@ -1257,7 +1257,7 @@
     },
     {
       "categories": ["Tools", "Productivity"],
-      "description": "The to-do app to organize your life.",
+      "description": "The to-do app to organize your life.| Edit: VIKUNJA_SERVICE_FRONTENDURL & VIKUNJA_API_URL",
       "env": [
         {
           "default": "1000",
