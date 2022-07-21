@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  db:
+  vikunjadb:
     image: mariadb:10
     command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     environment:
@@ -15,7 +15,7 @@ services:
   api:
     image: vikunja/api
     environment:
-      VIKUNJA_DATABASE_HOST: db
+      VIKUNJA_DATABASE_HOST: vikunjadb
       VIKUNJA_DATABASE_PASSWORD: secret
       VIKUNJA_DATABASE_TYPE: mysql
       VIKUNJA_DATABASE_USER: vikunja
@@ -27,7 +27,7 @@ services:
     volumes:
       - ./files:/app/vikunja/files
     depends_on:
-      - db
+      - vikunjadb
     restart: unless-stopped
   frontend:
     image: vikunja/frontend
