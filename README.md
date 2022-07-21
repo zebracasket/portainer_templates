@@ -32,6 +32,9 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+**21/07/2022**
+  - Vikunja
+
 **05/07/2022**
   - massCode [no Docker implementation yet]
   
