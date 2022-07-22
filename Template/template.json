@@ -180,7 +180,7 @@
           "name": "INIT_PASSWORD"
         }
       ],
-      "image": "zusam/zusam:latest",
+      "image": "zusam/zusam",
       "logo": "https://github.com/zusam/zusam/raw/master/app/src/assets/zusam_logo.png",
       "name": "Zusam",
       "platform": "linux",
