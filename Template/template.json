@@ -183,7 +183,7 @@
       "logo": "https://github.com/zusam/zusam/raw/master/app/src/assets/zusam_logo.png",
       "name": "Zusam",
       "platform": "linux",
-      "ports": ["4180:80/tcp"],
+      "ports": ["4180:8080/tcp"],
       "restart_policy": "unless-stopped",
       "title": "Zus.am",
       "type": 1,
