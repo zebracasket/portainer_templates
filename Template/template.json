@@ -150,26 +150,47 @@
           "name": "TZ"
         }
       ],
-      "image": "hotio/bazarr:release",
-      "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/bazarr.png",
-      "name": "Bazarr",
+      {
+      "categories": ["Social", "Forum"],
+      "description": "Zusam is a free and open-source way to self-host private forums for groups of friends.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        },
+	{
+          "default": "email@domain.example",
+          "label": "INIT_USER",
+          "name": "INIT_USER"
+        },
+	{
+          "default": "initpass zusam",
+          "label": "INIT_PASSWORD",
+          "name": "INIT_PASSWORD"
+        }
+        {
+          "label": "TZ",
+          "name": "TZ"
+        }
+      ],
+      "image": "zusam/zusam:latest",
+      "logo": "https://github.com/zusam/zusam/raw/master/app/src/assets/zusam_logo.png",
+      "name": "Zusam",
       "platform": "linux",
-      "ports": ["6767:6767/tcp"],
+      "ports": ["4180:80/tcp"],
       "restart_policy": "unless-stopped",
-      "title": "Bazarr",
+      "title": "Zus.am",
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Files/AppData/Config/Bazarr",
-          "container": "/config"
-        },
-        {
-          "bind": "/portainer/TV",
-          "container": "/tv"
-        },
-        {
-          "bind": "/portainer/Movies",
-          "container": "/movies"
+          "bind": "/portainer/Files/AppData/Config/Zusam",
+          "container": "/zusam/data"
         }
       ]
     },
