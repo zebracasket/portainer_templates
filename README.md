@@ -32,6 +32,9 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+**22/07/2022**
+  - Zusam
+
 **21/07/2022**
   - Vikunja
 
