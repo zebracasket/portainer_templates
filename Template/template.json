@@ -174,10 +174,6 @@
           "label": "INIT_PASSWORD",
           "name": "INIT_PASSWORD"
         }
-        {
-          "label": "TZ",
-          "name": "TZ"
-        }
       ],
       "image": "zusam/zusam:latest",
       "logo": "https://github.com/zusam/zusam/raw/master/app/src/assets/zusam_logo.png",
