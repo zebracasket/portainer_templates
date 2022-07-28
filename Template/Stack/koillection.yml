@@ -37,7 +37,7 @@ services:
             - POSTGRES_PASSWORD=password
             - POSTGRES_HOST_AUTH_METHOD=trust
         ports:
-            - 5432:5432
+            - 25432:5432
         volumes:
             - /portainer/Files/AppData/Config/postgresql:/var/lib/postgresql/data
 
