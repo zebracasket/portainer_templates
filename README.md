@@ -38,9 +38,10 @@ All templates are already configured to bind mount to various places on your dri
 - Koillection
 </details>
 
-**22/07/2022**
+<details>
+<summary>22/07/2022</summary>
   - Zusam
-
+</details>
 **21/07/2022**
   - Vikunja
 
