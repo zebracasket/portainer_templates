@@ -25,7 +25,7 @@ services:
             - postgresql
         volumes:
             - /portainer/Files/AppData/Config/koillection/public/uploads:/var/www/koillection/public/uploads
-            - ./:/var/www/koillection
+            - /portainer/Files/AppData/Config/koillection:/var/www/koillection
 
     postgresql:
         container_name: postgresql
