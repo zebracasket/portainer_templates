@@ -49,6 +49,6 @@ services:
             - MYSQL_ROOT_PASSWORD=password
             - MYSQL_DATABASE=koillection
         ports:
-            - 43306:43306
+            - 43306:3306
         volumes:
             - /portainer/Files/AppData/Config/koillection/koinmysql:/var/lib/mysql
