@@ -32,11 +32,11 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
-**<details>
+<details>
 <summary>28/07/2022</summary>
 <br>
 - Koillection
-</details>**
+</details>
 
 **22/07/2022**
   - Zusam
