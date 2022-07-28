@@ -8,7 +8,7 @@ services:
         image: koillection/koillection:dev
         restart: always
         ports:
-            - 81:80
+            - 181:80
         environment:
             - APP_ENV=dev
             - APP_DEBUG=1
@@ -22,10 +22,10 @@ services:
             - PHP_TZ=Europe/Paris
             - HTTPS_ENABLED=0
         depends_on:
-            - mysql
+            - koinmysql
             - postgresql
         volumes:
-            - "./docker/volumes/koillection/public/uploads:/var/www/koillection/public/uploads"
+            - /portainer/Files/AppData/Config/koillection/public/uploads:/var/www/koillection/public/uploads
             - ./:/var/www/koillection
 
     postgresql:
@@ -39,17 +39,16 @@ services:
         ports:
             - 5432:5432
         volumes:
-            - "./docker/volumes/postgresql:/var/lib/postgresql/data"
+            - /portainer/Files/AppData/Config/postgresql:/var/lib/postgresql/data
 
-    mysql:
+    koinmysql:
         container_name: mysql
         image: mysql:latest
         command: --default-authentication-plugin=mysql_native_password
         environment:
             - MYSQL_ROOT_PASSWORD=password
             - MYSQL_DATABASE=koillection
-
         ports:
             - 3306:3306
         volumes:
-            - "./docker/volumes/mysql:/var/lib/mysql"
+            - /portainer/Files/AppData/Config/koillection/koinmysql:/var/lib/mysql
