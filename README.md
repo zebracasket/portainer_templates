@@ -33,7 +33,7 @@ All templates are already configured to bind mount to various places on your dri
 ## Update:
 
 <details>
-<summary>**28/07/2022**</summary>
+**<summary>28/07/2022</summary>**
 <br>
 - Koillection
 </details>
