@@ -1278,6 +1278,35 @@
       "type": 3
     },
     {
+      "categories": ["Tools"],
+      "description": "Koillection is a self-hosted collection manager created to keep track of physical (mostly) collections of any kind like books, DVDs, stamps, games..",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "1000",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "PORT",
+          "name": "PORT"
+        }
+      ],
+      "logo": "https://user-images.githubusercontent.com/20560781/80213166-0e560e00-8639-11ea-944e-4f79fdbcef55.png",
+      "name": "Koillection",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "Template/Stack/koillection.yml",
+        "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "title": "Koillection",
+      "type": 3
+    },
+    {
       "categories": ["Tools", "Productivity"],
       "description": "The to-do app to organize your life.| Before use create custom template and Edit: VIKUNJA_SERVICE_FRONTENDURL , VIKUNJA_API_URL & VIKUNJA_SERVICE_JWTSECRET",
       "env": [
