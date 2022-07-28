@@ -42,71 +42,112 @@ All templates are already configured to bind mount to various places on your dri
 <summary>22/07/2022</summary>
   - Zusam
 </details>
-**21/07/2022**
+
+<details>
+<summary>21/07/2022</summary>
   - Vikunja
+</details>
 
-**05/07/2022**
+<details>
+<summary>05/07/2022</summary>
   - massCode [no Docker implementation yet]
-  
-**01/07/2022**
-  - Facebox [implementing config it's a WIP]
-  
-**01/06/2022**
-  - Eufy Security WS
+</details>
 
-**31/05/2022**
+<details>
+<summary>01/07/2022</summary>
+  - Facebox [implementing config it's a WIP]
+</details>
+
+<details>
+<summary>01/06/2022</summary>
+  - Eufy Security WS
+</details>
+
+<details>
+<summary>31/05/2022</summary>
   *Comment: I tried integrating Servas and wallabag to be consisent with the /portainer/Files setup, but unfortunately I couldn't...at the time
   I will try again during the summer, if I get a little bit more time in between feeding my newborn twins, after work! *.
+</details>
 
-**24/05/2022**
+<details>
+<summary>24/05/2022</summary>
   - Tandoor
+</details>
 
-**10/05/2022**
+<details>
+<summary>10/05/2022</summary>
   - Trilium Notes
+</details>
 
-**09/05/2022**
+<details>
+<summary>09/05/2022</summary>
   - Audiobookshelf
+</details>
 
-**04/05/2022**
+<details>
+<summary>04/05/2022</summary>
   - Baserow
   - GoAccess for Nginx Proxy Manager Logs
-  
-**15/03/2022**
+</details>
+
+<details>
+<summary>15/03/2022</summary>
   - Fenrus
-  
-**17/02/2022*
+</details>
+
+<details>
+<summary>17/02/2022</summary>
   - Kavita
- 
-**28/01/2022**
+</details>
+
+<details>
+<summary>28/01/2022</summary>
   - Pi.alert
-**11/01/2022**
+</details>
+
+<details>
+<summary>11/01/2022</summary>
   - Navidrome
+</details>
 
-**12/12/2021**
+<details>
+<summary>12/12/2021</summary>
   - Firefox
+</details>
 
-**07/12/2021**
+<details>
+<summary>07/12/2021</summary>
   - Broadlink Manager
   - Homebridge
   - NUTS
-  
-**06/12/2021**
-  - Dozzle
+</details>
 
-**16/11/2021:**
+<details>
+<summary>06/12/2021</summary>
+  - Dozzle
+</details>
+
+<details>
+<summary>16/11/2021</summary>
   - Flame Dashboard
-  
-**12/11/2021:**
+</details>
+
+<details>
+<summary>12/11/2021</summary>
   - Snippet Box
   - Photoprism
   - Teleport
+</details>
 
-**08/11/2021:**
+<details>
+<summary>08/11/2021</summary>
   - Aria2 Pro [Downloader]
   - Apprise-API
   - Cryptofolio
+</details>
 
-**05/11/2021:**
+<details>
+<summary>05/11/2021</summary>
   - Umami.is
   - Matomo
   - N.eko Rooms
@@ -120,14 +161,16 @@ All templates are already configured to bind mount to various places on your dri
   - Statping
   - Frigate NVR
   - Ferdi
+</details>
 
-**04/11/2021:**
+<details>
+<summary>04/11/2021</summary>
   - Uptime-Kuma
   - Dashy
   - WebTop [ubuntu-kde]
   - Littlelink-server by Techno Tim
 <br></br>
-
+</details>
 
 ## 
 Other:
