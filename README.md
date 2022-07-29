@@ -38,6 +38,7 @@ All templates are already configured to bind mount to various places on your dri
 - Leantime
 - Jellyseer
 - Trudesk [WIP]
+- Dash/Dashdot
 </details>
 
 <details>
