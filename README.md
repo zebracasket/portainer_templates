@@ -36,6 +36,7 @@ All templates are already configured to bind mount to various places on your dri
 <summary>29/07/2022</summary>
 <br>
 - Leantime
+- Jellyseer
 </details>
 
 <details>
