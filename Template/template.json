@@ -4242,6 +4242,19 @@
       },  
       "title": "Jellyseer",
       "type": 3
+    }, 
+    {
+      "categories": ["Productivity"],
+      "description": "Trudesk is an Open Source Help Desk Software and Ticketing System", 
+      "logo": "https://trudesk.io/wp-content/uploads/2019/10/logo-med.png",
+      "name": "trudesk",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/trudesk.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Trudesk",
+      "type": 3
     },  
     {
       "categories": ["Productivity"],
