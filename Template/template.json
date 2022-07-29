@@ -4257,6 +4257,19 @@
       "type": 3
     },  
     {
+      "categories": ["System"],
+      "description": "dash. (or dashdot) is a modern server dashboard, running on the latest tech, designed with glassmorphism in mind. It is intended to be used for smaller VPS and private servers.", 
+      "logo": "https://github.com/MauriceNino/dashdot/raw/main/.github/images/banner_muted.png",
+      "name": "dashdot",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/dashdot.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Dashdot",
+      "type": 3
+    },
+    {
       "categories": ["Productivity"],
       "description": "Open source no-code database and Airtable alternative.Create your own online database without technical experience. Our user friendly no-code tool gives you the powers of a developer without leaving your browser.", 
       "logo": "https://baserow.io/_nuxt/img/logo.1421f77.svg",
