@@ -35,7 +35,7 @@ All templates are already configured to bind mount to various places on your dri
 <details>
 <summary>28/07/2022</summary>
 <br>
-- Koillection
+- Koillection [WIP]
 </details>
 
 <details>
