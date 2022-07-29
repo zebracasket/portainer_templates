@@ -4258,7 +4258,7 @@
     },  
     {
       "categories": ["System"],
-      "description": "dash. (or dashdot) is a modern server dashboard, running on the latest tech, designed with glassmorphism in mind. It is intended to be used for smaller VPS and private servers.", 
+      "description": "Dashdot is a modern server dashboard, running on the latest tech, designed with glassmorphism in mind. It is intended to be used for smaller VPS and private servers.", 
       "logo": "https://github.com/MauriceNino/dashdot/raw/main/.github/images/banner_muted.png",
       "name": "dashdot",
       "platform": "linux",
