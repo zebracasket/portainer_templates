@@ -4231,6 +4231,19 @@
       "type": 3
     },
     {
+      "categories": ["Entertainment"],
+      "description": "Jellyseerr is a free and open source fork of Overseerr for managing requests for your media library. It integrates with your existing services, such as Sonarr, Radarr, and Jellyfin!", 
+      "logo": "https://i.imgur.com/ZecgKfm.png",
+      "name": "jellyseer",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/jellyseer.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Jellyseer",
+      "type": 3
+    },  
+    {
       "categories": ["Productivity"],
       "description": "Open source no-code database and Airtable alternative.Create your own online database without technical experience. Our user friendly no-code tool gives you the powers of a developer without leaving your browser.", 
       "logo": "https://baserow.io/_nuxt/img/logo.1421f77.svg",
