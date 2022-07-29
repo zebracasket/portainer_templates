@@ -1,0 +1,23 @@
+version: '3.5'
+
+services:
+  dash:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    working_dir: /app
+    tty: true
+    command: yarn run serve
+    restart: unless-stopped
+    privileged: true
+    environment:
+      - DASHDOT_ENABLE_CPU_TEMPS=true
+      - DASHDOT_ENABLE_STORAGE_SPLIT_VIEW=true
+    ports:
+      - 13000:3000 # view
+      - 13001:3001 # api
+      - 13002:3002 # docs
+    volumes:
+      - /portainer/Files/AppData/Config/dashdot:/app
+      - /portainer/Files/AppData/Config/dashdot:/mnt/host:ro
