@@ -20,4 +20,4 @@ services:
       - 13002:3002 # docs
     volumes:
       - /portainer/Files/AppData/Config/dashdot:/app
-      - /portainer/Files/AppData/Config/dashdot:/mnt/host:ro
+      - /:/mnt/host:ro
