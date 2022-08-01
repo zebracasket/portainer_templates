@@ -4218,6 +4218,19 @@
       "type": 3
     },
     {
+      "categories": ["Wiki"],
+      "description": "Xwiki s a free wiki software platform written in Java with a design emphasis on extensibility. XWiki is an enterprise wiki.", 
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Logo-xwikiorange.svg",
+      "name": "xwiki",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/xwiki.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Xwiki",
+      "type": 3
+    },
+    {
       "categories": ["Productivity"],
       "description": "Leantime is an open source project management solution to make your ideas reality.", 
       "logo": "https://s3-us-west-2.amazonaws.com/leantime-website/wp-content/uploads/2022/07/24022056/logo-large.png",
