@@ -1,4 +1,4 @@
-~~Nov21|Dec21|Jan22|Feb22|Mar22|Apr22|May22|Jun22~~
+~~Nov21|Dec21|Jan22|Feb22|Mar22|Apr22|May22|Jun22|Jul22~~|Aug22
 
 **July 2022: Keep on adding stuff!**
 # Portainer V2 Templates for Selfhosted Projects/Homelabs
@@ -31,6 +31,12 @@ All templates are already configured to bind mount to various places on your dri
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
 ## App List
 ## Update:
+
+<details>
+<summary>01/08/2022</summary>
+<br>
+- XWiki
+</details>
 
 <details>
 <summary>29/07/2022</summary>
