@@ -4218,6 +4218,19 @@
       "type": 3
     },
     {
+      "categories": ["Productivity"],
+      "description": "Hasty Paste is a fast and minimal paste bin, written in Python using Quart.", 
+      "logo": "",
+      "name": "hasty-paste",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/hasty-paste.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Hasty-Paste",
+      "type": 3
+    },
+    {
       "categories": ["Wiki"],
       "description": "Xwiki s a free wiki software platform written in Java with a design emphasis on extensibility. XWiki is an enterprise wiki.", 
       "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Logo-xwikiorange.svg",
