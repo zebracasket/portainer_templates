@@ -2,7 +2,7 @@ version: "3"
 
 services:
   paste-bin:
-    container_name: paste-bin
+    container_name: hasty-paste
     image: ghcr.io/enchant97/hasty-paste:latest
     restart: unless-stopped
     volumes:
