@@ -4218,6 +4218,19 @@
       "type": 3
     },
     {
+      "categories": ["Downloading"],
+      "description": "Peer-to-peer file transfers in your browser", 
+      "logo": "https://raw.githubusercontent.com/kern/filepizza/master/src/static/images/wordmark.png",
+      "name": "filepizza",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/filepizza.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Filepizza",
+      "type": 3
+    },
+    {
       "categories": ["Dashboard"],
       "description": "Jump is yet another self-hosted startpage for your server designed to be simple, stylish, fast and secure.", 
       "logo": "",
