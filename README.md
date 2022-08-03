@@ -36,6 +36,7 @@ All templates are already configured to bind mount to various places on your dri
 <summary>03/08/2022</summary>
 <br>
 - Jump
+- Filepizza
 </details>
 
 <details>
