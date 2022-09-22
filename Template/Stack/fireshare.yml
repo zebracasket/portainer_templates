@@ -12,7 +12,7 @@ services:
       - /portainer/Files/AppData/Config/fireshare/videos:/videos
     environment:
       - ADMIN_USERNAME=fireadmin
-      - ADMIN_PASSWORD=firepwdadmin #please change this
+      - ADMIN_PASSWORD=firepwd #please change this
       - SECRET_KEY=replace_this_with_some_random_string0x0
       - MINUTES_BETWEEN_VIDEO_SCANS=1  #how often should the system scan?
       - PUID=998 #change this to match your server settings
