@@ -4218,6 +4218,19 @@
       "type": 3
     },
     {
+      "categories": ["Financial"],
+      "description": "Budget is an open-source web application that helps you keep track of your finances.", 
+      "logo": "",
+      "name": "budget",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/budget.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Budget",
+      "type": 3
+    },
+    {
       "categories": ["Multimedia"],
       "description": "Fireshare: Share your game clips, videos, or other media via unique links.", 
       "logo": "https://github.com/ShaneIsrael/fireshare/raw/main/app/client/src/assets/logo.png",
