@@ -4231,6 +4231,19 @@
       "type": 3
     },
     {
+      "categories": ["Finance"],
+      "description": "OpenBudgeteer is a budgeting app based on the Bucket Budgeting Principle and inspired by YNAB and Buckets.", 
+      "logo": "https://github.com/TheAxelander/OpenBudgeteer/raw/master/assets/banner.png",
+      "name": "openbudgeteer",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/openbudgeteer.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "OpenBudgeteer",
+      "type": 3
+    },
+    {
       "categories": ["Multimedia"],
       "description": "Fireshare: Share your game clips, videos, or other media via unique links.", 
       "logo": "https://github.com/ShaneIsrael/fireshare/raw/main/app/client/src/assets/logo.png",
