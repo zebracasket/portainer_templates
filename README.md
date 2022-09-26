@@ -35,7 +35,7 @@ All templates are already configured to bind mount to various places on your dri
 <details>
 <summary>26/09/2022</summary>
 <br>
-- Budget
+- I hate money
 </details>
 
 <details>
