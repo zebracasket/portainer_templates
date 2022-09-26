@@ -4219,15 +4219,15 @@
     },
     {
       "categories": ["Finance"],
-      "description": "Budget is an open-source web application that helps you keep track of your finances.", 
+      "description": "I hate money is a web application made to ease shared budget management. It keeps track of who bought what, when, and for whom; and helps to settle the bills.", 
       "logo": "",
-      "name": "budget",
+      "name": "ihatemoney",
       "platform": "linux",
       "repository": {
-	    "stackfile": "Template/Stack/budget.yml",
+	    "stackfile": "Template/Stack/ihatemoney.yml",
 	    "url": "https://github.com/xneo1/portainer_templates"
       },  
-      "title": "Budget",
+      "title": "I hate money",
       "type": 3
     },
     {
