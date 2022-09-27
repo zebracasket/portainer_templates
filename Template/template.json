@@ -4218,6 +4218,19 @@
       "type": 3
     },
     {
+      "categories": ["Dashboard"],
+      "description": "Homepage is a new dashboard implementation that create a super fast static site.", 
+      "logo": "https://raw.githubusercontent.com/benphelps/homepage/main/images/preview.png",
+      "name": "homepage",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/homepage.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Homepage",
+      "type": 3
+    },
+    {
       "categories": ["Finance"],
       "description": "I hate money is a web application made to ease shared budget management. It keeps track of who bought what, when, and for whom; and helps to settle the bills.", 
       "logo": "",
