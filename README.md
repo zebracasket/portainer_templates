@@ -33,6 +33,12 @@ All templates are already configured to bind mount to various places on your dri
 ## Update:
 
 <details>
+<summary>27/09/2022</summary>
+<br>
+- Homepage
+</details>
+
+<details>
 <summary>26/09/2022</summary>
 <br>
 - I hate money
