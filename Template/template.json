@@ -4219,7 +4219,7 @@
     },
     {
       "categories": ["Dashboard"],
-      "description": "Homepage is a new dashboard implementation that create a super fast static site.", 
+      "description": "Homepage is a new dashboard implementation that creates a super fast static site.", 
       "logo": "https://raw.githubusercontent.com/benphelps/homepage/main/images/preview.png",
       "name": "homepage",
       "platform": "linux",
