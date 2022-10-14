@@ -4218,6 +4218,19 @@
       "type": 3
     },
     {
+      "categories": ["Network"],
+      "description": "IPerf3 Docker Build for Network Performance and Bandwidth Testing", 
+      "logo": "",
+      "name": "iperf",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/iperf.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "iperf",
+      "type": 3
+    },
+    {
       "categories": ["Dashboard"],
       "description": "Homepage is a new dashboard implementation that creates a super fast static site.", 
       "logo": "https://raw.githubusercontent.com/benphelps/homepage/main/images/preview.png",
