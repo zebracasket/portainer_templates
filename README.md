@@ -1,6 +1,6 @@
 ~~Nov21|Dec21|Jan22|Feb22|Mar22|Apr22|May22|Jun22|Jul22|Aug22|Sep22|Oct22|~~ Nov22
 
-**October 2022: Keep on adding stuff!**
+**November 2022: Keep on adding stuff!**
 # Portainer V2 Templates for Selfhosted Projects/Homelabs
 
 This is a template focused on helping people spin up selfhosted services using Portainer, forked from [Qballjos](https://github.com/Qballjos/portainer_templates).
@@ -31,6 +31,12 @@ All templates are already configured to bind mount to various places on your dri
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
 ## App List
 ## Update:
+
+<details>
+<summary>03/11/2022</summary>
+<br>
+- Lazytainer
+</details>
 
 <details>
 <summary>14/10/2022</summary>
