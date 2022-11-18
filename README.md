@@ -33,6 +33,12 @@ All templates are already configured to bind mount to various places on your dri
 ## Update:
 
 <details>
+<summary>18/11/2022</summary>
+<br>
+- Poste.io
+</details>
+
+<details>
 <summary>03/11/2022</summary>
 <br>
 - Lazytainer
