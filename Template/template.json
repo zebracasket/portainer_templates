@@ -4218,6 +4218,19 @@
       "type": 3
     },
     {
+      "categories": ["Mail"],
+      "description": "Full stack mailserver solution with  TLS support. POP3s, SMTP(s), IMAPs, RSPAMD, Clamav, Roundcube(HTTPS), SPF, DKIM with simple installation and web administration.", 
+      "logo": "",
+      "name": "poste.io",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/posteio.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Poste.io",
+      "type": 3
+    },	  
+    {
       "categories": ["Network"],
       "description": "IPerf3 Docker Build for Network Performance and Bandwidth Testing", 
       "logo": "",
