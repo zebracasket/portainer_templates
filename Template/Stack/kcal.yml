@@ -69,7 +69,7 @@ services:
     cap_add:
       - IPC_LOCK
     volumes:
-      - 'elasticsearch-data:/usr/share/elasticsearch/data'
+      - /portainer/Files/AppData/Config/kcal/elasticsearch-data:/usr/share/elasticsearch/data
     ports:
       - '${ELASTIC_PORT:-9200}:9200'
       - '${ELASTIC_BIN_PORT:-9300}:9300'
@@ -80,7 +80,7 @@ services:
     ports:
       - '${REDIS_PORT:-6379}:6379'
     volumes:
-      - 'redis-data:/data'
+      - /portainer/Files/AppData/Config/kcal/redis-data:/data
     networks:
       - sail
 networks:
