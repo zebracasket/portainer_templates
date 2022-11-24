@@ -4218,6 +4218,19 @@
       "type": 3
     },
     {
+      "categories": ["Development"],
+      "description": "Appwrite is a self-hosted backend-as-a-service platform that provides developers with all the core APIs required to build any application.", 
+      "logo": "https://appwrite.io/images/appwrite.svg",
+      "name": "appwrite",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/appwrite.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Appwrite",
+      "type": 3
+    },
+    {
       "categories": ["email"],
       "description": "Mailpile is an e-mail client!/search engine and a personal webmail server/easy way to encrypt your e-mail/easy way to encrypt your e-mail ", 
       "logo": "https://www.mailpile.is/img/icon-512x512.png",
