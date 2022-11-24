@@ -4218,6 +4218,19 @@
       "type": 3
     },
     {
+      "categories": ["App"],
+      "description": "Kcal – the personal food nutrition journal", 
+      "logo": "",
+      "name": "kcal",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/kcal.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Kcal",
+      "type": 3
+    },   
+    {
       "categories": ["Development"],
       "description": "Appwrite is a self-hosted backend-as-a-service platform that provides developers with all the core APIs required to build any application.", 
       "logo": "https://appwrite.io/images/appwrite.svg",
