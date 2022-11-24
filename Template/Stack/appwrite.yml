@@ -55,11 +55,11 @@ services:
       - traefik.http.routers.appwrite_api_https.service=appwrite_api
       - traefik.http.routers.appwrite_api_https.tls=true
     volumes:
-      - appwrite-uploads:/storage/uploads:rw
-      - appwrite-cache:/storage/cache:rw
-      - appwrite-config:/storage/config:rw
-      - appwrite-certificates:/storage/certificates:rw
-      - appwrite-functions:/storage/functions:rw
+      - /portainer/Files/AppData/Config/appwrite/uploads:/storage/uploads:rw
+      - /portainer/Files/AppData/Config/appwrite/appwrite/cache:/storage/cache:rw
+      - /portainer/Files/AppData/Config/appwrite/config:/storage/config:rw
+      - /portainer/Files/AppData/Config/appwrite/certificates:/storage/certificates:rw
+      - /portainer/Files/AppData/Config/appwrite/functions:/storage/functions:rw
     depends_on:
       - mariadb
       - redis
@@ -249,11 +249,11 @@ services:
       - redis
       - mariadb
     volumes: 
-      - appwrite-uploads:/storage/uploads:rw
-      - appwrite-cache:/storage/cache:rw
-      - appwrite-functions:/storage/functions:rw
-      - appwrite-builds:/storage/builds:rw
-      - appwrite-certificates:/storage/certificates:rw
+      - /portainer/Files/AppData/Config/appwrite/uploads:/storage/uploads:rw
+      - /portainer/Files/AppData/Config/appwrite/cache:/storage/cache:rw
+      - /portainer/Files/AppData/Config/appwrite/functions:/storage/functions:rw
+      - /portainer/Files/AppData/Config/appwrite/builds:/storage/builds:rw
+      - /portainer/Files/AppData/Config/appwrite/certificates:/storage/certificates:rw
     environment:
       - _APP_ENV
       - _APP_OPENSSL_KEY_V1
@@ -358,8 +358,8 @@ services:
       - redis
       - mariadb
     volumes: 
-      - appwrite-config:/storage/config:rw
-      - appwrite-certificates:/storage/certificates:rw
+      - /portainer/Files/AppData/Config/appwrite/config:/storage/config:rw
+      - /portainer/Files/AppData/Config/appwrite/certificates:/storage/certificates:rw
     environment:
       - _APP_ENV
       - _APP_OPENSSL_KEY_V1
@@ -421,9 +421,9 @@ services:
       runtimes:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - appwrite-functions:/storage/functions:rw
-      - appwrite-builds:/storage/builds:rw
-      - /tmp:/tmp:rw
+      - /portainer/Files/AppData/Config/appwrite/functions:/storage/functions:rw
+      - /portainer/Files/AppData/Config/appwrite/builds:/storage/builds:rw
+      - /portainer/Files/AppData/Config/appwrite/tmp:/tmp:rw
     depends_on:
       - redis
       - mariadb
@@ -599,7 +599,7 @@ services:
     networks:
       - appwrite
     volumes:
-      - appwrite-mariadb:/var/lib/mysql:rw
+      - /portainer/Files/AppData/Config/appwrite/mariadb:/var/lib/mysql:rw
     environment:
       - MYSQL_ROOT_PASSWORD=${_APP_DB_ROOT_PASS}
       - MYSQL_DATABASE=${_APP_DB_SCHEMA}
@@ -620,7 +620,7 @@ services:
     networks:
       - appwrite
     volumes:
-      - appwrite-redis:/data:rw
+      - /portainer/Files/AppData/Config/appwrite/redis:/data:rw
 
   # clamav:
   #   image: appwrite/clamav:1.2.0
@@ -629,7 +629,7 @@ services:
   #   networks:
   #     - appwrite
   #   volumes:
-  #     - appwrite-uploads:/storage/uploads
+  #     - /portainer/Files/AppData/Config/appwrite/uploads:/storage/uploads
 
   influxdb:
     image: appwrite/influxdb:1.5.0
@@ -639,7 +639,7 @@ services:
     networks:
       - appwrite
     volumes:
-      - appwrite-influxdb:/var/lib/influxdb:rw
+      - /portainer/Files/AppData/Config/appwrite/influxdb:/var/lib/influxdb:rw
 
   telegraf:
     image: appwrite/telegraf:1.4.0
