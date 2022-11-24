@@ -25,8 +25,8 @@ services:
       - 8443:443
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /portainer/Files/AppData/Config/appwrite-config:/storage/config:ro
-      - /portainer/Files/AppData/Config/appwrite-certificates:/storage/certificates:ro
+      - /portainer/Files/AppData/Config/appwrite/config:/storage/config:ro
+      - /portainer/Files/AppData/Config/appwrite/certificates:/storage/certificates:ro
     depends_on:
       - appwrite
     networks:
