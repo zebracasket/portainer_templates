@@ -17,12 +17,12 @@ services:
       - --providers.docker=true
       - --providers.docker.exposedByDefault=false
       - --providers.docker.constraints=Label(`traefik.constraint-label-stack`,`appwrite`)
-      - --entrypoints.appwrite_web.address=:880
-      - --entrypoints.appwrite_websecure.address=:8443
+      - --entrypoints.appwrite_web.address=:80
+      - --entrypoints.appwrite_websecure.address=:443
     restart: unless-stopped
     ports:
-      - 880:80
-      - 8443:443
+      - 80:80
+      - 443:443
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - /portainer/Files/AppData/Config/appwrite/config:/storage/config:ro
