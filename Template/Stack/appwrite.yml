@@ -483,20 +483,20 @@ services:
       - redis
     environment:
       - _APP_ENV=production
-      - _APP_OPENSSL_KEY_V1
-      - _APP_SYSTEM_EMAIL_NAME
-      - _APP_SYSTEM_EMAIL_ADDRESS
-      - _APP_REDIS_HOST
-      - _APP_REDIS_PORT
-      - _APP_REDIS_USER
-      - _APP_REDIS_PASS
-      - _APP_SMTP_HOST
-      - _APP_SMTP_PORT
-      - _APP_SMTP_SECURE
-      - _APP_SMTP_USERNAME
-      - _APP_SMTP_PASSWORD
-      - _APP_LOGGING_PROVIDER
-      - _APP_LOGGING_CONFIG
+      - _APP_OPENSSL_KEY_V1=just-a-key
+      - _APP_SYSTEM_EMAIL_NAME=Appwrite
+      - _APP_SYSTEM_EMAIL_ADDRESS=team@appwrite.io
+      - _APP_REDIS_HOST=redis
+      - _APP_REDIS_PORT=6379
+      - _APP_REDIS_USER=
+      - _APP_REDIS_PASS=
+      - _APP_SMTP_HOST=
+      - _APP_SMTP_PORT=
+      - _APP_SMTP_SECURE=
+      - _APP_SMTP_USERNAME=
+      - _APP_SMTP_PASSWORD=
+      - _APP_LOGGING_PROVIDER=
+      - _APP_LOGGING_CONFIG=
 
   appwrite-worker-messaging:
     image: appwrite/appwrite:1.1.1
