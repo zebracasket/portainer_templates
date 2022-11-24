@@ -654,8 +654,8 @@ services:
     networks:
       - appwrite
     environment: 
-      - _APP_INFLUXDB_HOST
-      - _APP_INFLUXDB_PORT
+      - _APP_INFLUXDB_HOST=influxdb
+      - _APP_INFLUXDB_PORT=3306
 
 networks:
   gateway:
