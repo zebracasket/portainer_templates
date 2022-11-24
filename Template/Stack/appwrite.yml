@@ -216,8 +216,8 @@ services:
       - _APP_DB_SCHEMA=appwrite
       - _APP_DB_USER=user
       - _APP_DB_PASS=password
-      - _APP_LOGGING_PROVIDER
-      - _APP_LOGGING_CONFIG
+      - _APP_LOGGING_PROVIDER=
+      - _APP_LOGGING_CONFIG=
 
   appwrite-worker-webhooks:
     image: appwrite/appwrite:1.1.1
@@ -308,19 +308,19 @@ services:
       - redis
       - mariadb
     environment:
-      - _APP_ENV
-      - _APP_OPENSSL_KEY_V1
-      - _APP_REDIS_HOST
-      - _APP_REDIS_PORT
-      - _APP_REDIS_USER
-      - _APP_REDIS_PASS
-      - _APP_DB_HOST
-      - _APP_DB_PORT
-      - _APP_DB_SCHEMA
-      - _APP_DB_USER
-      - _APP_DB_PASS
-      - _APP_LOGGING_PROVIDER
-      - _APP_LOGGING_CONFIG
+      - _APP_ENV=production
+      - _APP_OPENSSL_KEY_V1=just-a-key
+      - _APP_REDIS_HOST=redis
+      - _APP_REDIS_PORT=6379
+      - _APP_REDIS_USER=
+      - _APP_REDIS_PASS=
+      - _APP_DB_HOST=mariadb
+      - _APP_DB_PORT=3306
+      - _APP_DB_SCHEMA=appwrite
+      - _APP_DB_USER=user
+      - _APP_DB_PASS=password
+      - _APP_LOGGING_PROVIDER=
+      - _APP_LOGGING_CONFIG=
 
   appwrite-worker-builds:
     image: appwrite/appwrite:1.1.1
@@ -334,21 +334,21 @@ services:
       - redis
       - mariadb
     environment:
-      - _APP_ENV
-      - _APP_OPENSSL_KEY_V1
-      - _APP_EXECUTOR_SECRET
-      - _APP_EXECUTOR_HOST
-      - _APP_REDIS_HOST
-      - _APP_REDIS_PORT
-      - _APP_REDIS_USER
-      - _APP_REDIS_PASS
-      - _APP_DB_HOST
-      - _APP_DB_PORT
-      - _APP_DB_SCHEMA
-      - _APP_DB_USER
-      - _APP_DB_PASS
-      - _APP_LOGGING_PROVIDER
-      - _APP_LOGGING_CONFIG
+      - _APP_ENV=production
+      - _APP_OPENSSL_KEY_V1=just-a-key
+      - _APP_EXECUTOR_SECRET=your-secret-key
+      - _APP_EXECUTOR_HOST=http://appwrite-executor/v1
+      - _APP_REDIS_HOST=redis
+      - _APP_REDIS_PORT=6379
+      - _APP_REDIS_USER=
+      - _APP_REDIS_PASS=
+      - _APP_DB_HOST=mariadb
+      - _APP_DB_PORT=3306
+      - _APP_DB_SCHEMA=appwrite
+      - _APP_DB_USER=user
+      - _APP_DB_PASS=password
+      - _APP_LOGGING_PROVIDER=
+      - _APP_LOGGING_CONFIG=
 
   appwrite-worker-certificates:
     image: appwrite/appwrite:1.1.1
@@ -365,22 +365,22 @@ services:
       - /portainer/Files/AppData/Config/appwrite/config:/storage/config:rw
       - /portainer/Files/AppData/Config/appwrite/certificates:/storage/certificates:rw
     environment:
-      - _APP_ENV
-      - _APP_OPENSSL_KEY_V1
-      - _APP_DOMAIN
-      - _APP_DOMAIN_TARGET
-      - _APP_SYSTEM_SECURITY_EMAIL_ADDRESS
-      - _APP_REDIS_HOST
-      - _APP_REDIS_PORT
-      - _APP_REDIS_USER
-      - _APP_REDIS_PASS
-      - _APP_DB_HOST
-      - _APP_DB_PORT
-      - _APP_DB_SCHEMA
-      - _APP_DB_USER
-      - _APP_DB_PASS
-      - _APP_LOGGING_PROVIDER
-      - _APP_LOGGING_CONFIG
+      - _APP_ENV=production
+      - _APP_OPENSSL_KEY_V1=just-a-key
+      - _APP_DOMAIN=localhost
+      - _APP_DOMAIN_TARGET=localhost
+      - _APP_SYSTEM_SECURITY_EMAIL_ADDRESS=certs@appwrite.io
+      - _APP_REDIS_HOST=redis
+      - _APP_REDIS_PORT=6379
+      - _APP_REDIS_USER=
+      - _APP_REDIS_PASS=
+      - _APP_DB_HOST=mariadb
+      - _APP_DB_PORT=3306
+      - _APP_DB_SCHEMA=appwrite
+      - _APP_DB_USER=user
+      - _APP_DB_PASS=password
+      - _APP_LOGGING_PROVIDER=
+      - _APP_LOGGING_CONFIG=
 
   appwrite-worker-functions:
     image: appwrite/appwrite:1.1.1
@@ -395,21 +395,21 @@ services:
       - mariadb
       - appwrite-executor
     environment:
-      - _APP_ENV
-      - _APP_OPENSSL_KEY_V1
-      - _APP_REDIS_HOST
-      - _APP_REDIS_PORT
-      - _APP_REDIS_USER
-      - _APP_REDIS_PASS
-      - _APP_DB_HOST
-      - _APP_DB_PORT
-      - _APP_DB_SCHEMA
-      - _APP_DB_USER
-      - _APP_DB_PASS
-      - _APP_FUNCTIONS_TIMEOUT
-      - _APP_EXECUTOR_SECRET
-      - _APP_EXECUTOR_HOST
-      - _APP_USAGE_STATS
+      - _APP_ENV=production
+      - _APP_OPENSSL_KEY_V1=just-a-key
+      - _APP_REDIS_HOST=redis
+      - _APP_REDIS_PORT=6379
+      - _APP_REDIS_USER=
+      - _APP_REDIS_PASS=
+      - _APP_DB_HOST=mariadb
+      - _APP_DB_PORT=3306
+      - _APP_DB_SCHEMA=appwrite
+      - _APP_DB_USER=user
+      - _APP_DB_PASS=password
+      - _APP_FUNCTIONS_TIMEOUT=900
+      - _APP_EXECUTOR_SECRET=your-secret-key
+      - _APP_EXECUTOR_HOST=http://appwrite-executor/v1
+      - _APP_USAGE_STATS=enabled
       - DOCKERHUB_PULL_USERNAME=
       - DOCKERHUB_PULL_PASSWORD=
       - DOCKERHUB_PULL_EMAIL=
@@ -508,15 +508,15 @@ services:
     depends_on:
       - redis
     environment:
-      - _APP_ENV
-      - _APP_REDIS_HOST
-      - _APP_REDIS_PORT
-      - _APP_REDIS_USER
-      - _APP_REDIS_PASS
-      - _APP_SMS_PROVIDER
-      - _APP_SMS_FROM
-      - _APP_LOGGING_PROVIDER
-      - _APP_LOGGING_CONFIG
+      - _APP_ENV=production
+      - _APP_REDIS_HOST=redis
+      - _APP_REDIS_PORT=6379
+      - _APP_REDIS_USER=
+      - _APP_REDIS_PASS=
+      - _APP_SMS_PROVIDER=
+      - _APP_SMS_FROM=
+      - _APP_LOGGING_PROVIDER=
+      - _APP_LOGGING_CONFIG=
 
   appwrite-maintenance:
     image: appwrite/appwrite:1.1.1
@@ -529,19 +529,19 @@ services:
     depends_on:
       - redis
     environment:
-      - _APP_ENV
-      - _APP_OPENSSL_KEY_V1
-      - _APP_DOMAIN
-      - _APP_DOMAIN_TARGET
-      - _APP_REDIS_HOST
-      - _APP_REDIS_PORT
-      - _APP_REDIS_USER
-      - _APP_REDIS_PASS
-      - _APP_DB_HOST
-      - _APP_DB_PORT
-      - _APP_DB_SCHEMA
-      - _APP_DB_USER
-      - _APP_DB_PASS
+      - _APP_ENV=production
+      - _APP_OPENSSL_KEY_V1=just-a-key
+      - _APP_DOMAIN=localhost
+      - _APP_DOMAIN_TARGET=localhost
+      - _APP_REDIS_HOST=redis
+      - _APP_REDIS_PORT=6379
+      - _APP_REDIS_USER=
+      - _APP_REDIS_PASS=
+      - _APP_DB_HOST=mariadb
+      - _APP_DB_PORT=3306
+      - _APP_DB_SCHEMA=appwrite
+      - _APP_DB_USER=user
+      - _APP_DB_PASS=password
       - _APP_MAINTENANCE_INTERVAL
       - _APP_MAINTENANCE_RETENTION_EXECUTION
       - _APP_MAINTENANCE_RETENTION_CACHE
