@@ -542,12 +542,12 @@ services:
       - _APP_DB_SCHEMA=appwrite
       - _APP_DB_USER=user
       - _APP_DB_PASS=password
-      - _APP_MAINTENANCE_INTERVAL
-      - _APP_MAINTENANCE_RETENTION_EXECUTION
-      - _APP_MAINTENANCE_RETENTION_CACHE
-      - _APP_MAINTENANCE_RETENTION_ABUSE
-      - _APP_MAINTENANCE_RETENTION_AUDIT
-      - _APP_MAINTENANCE_RETENTION_USAGE_HOURLY
+      - _APP_MAINTENANCE_INTERVAL=86400
+      - _APP_MAINTENANCE_RETENTION_EXECUTION=1209600
+      - _APP_MAINTENANCE_RETENTION_CACHE=2592000
+      - _APP_MAINTENANCE_RETENTION_ABUSE=86400
+      - _APP_MAINTENANCE_RETENTION_AUDIT=1209600
+      - _APP_MAINTENANCE_RETENTION_USAGE_HOURLY=8640000
   appwrite-usage:
     image: appwrite/appwrite:1.1.1
     entrypoint: usage
@@ -560,24 +560,24 @@ services:
       - influxdb
       - mariadb
     environment:
-      - _APP_ENV
-      - _APP_OPENSSL_KEY_V1
-      - _APP_DB_HOST
-      - _APP_DB_PORT
-      - _APP_DB_SCHEMA
-      - _APP_DB_USER
-      - _APP_DB_PASS
-      - _APP_INFLUXDB_HOST
-      - _APP_INFLUXDB_PORT
+      - _APP_ENV=production
+      - _APP_OPENSSL_KEY_V1=just-a-key
+      - _APP_DB_HOST=mariadb
+      - _APP_DB_PORT=3306
+      - _APP_DB_SCHEMA=APPWRITE
+      - _APP_DB_USER=USER
+      - _APP_DB_PASS=PASSWORD
+      - _APP_INFLUXDB_HOST=influxdb
+      - _APP_INFLUXDB_PORT=8086
       - _APP_USAGE_AGGREGATION_INTERVAL=30
       - _APP_USAGE_TIMESERIES_INTERVAL=30
       - _APP_USAGE_DATABASE_INTERVAL=900
-      - _APP_REDIS_HOST
-      - _APP_REDIS_PORT
-      - _APP_REDIS_USER
-      - _APP_REDIS_PASS
-      - _APP_LOGGING_PROVIDER
-      - _APP_LOGGING_CONFIG
+      - _APP_REDIS_HOST=redis
+      - _APP_REDIS_PORT=6379
+      - _APP_REDIS_USER=
+      - _APP_REDIS_PASS=
+      - _APP_LOGGING_PROVIDER=
+      - _APP_LOGGING_CONFIG=
 
   appwrite-schedule:
     image: appwrite/appwrite:1.1.1
@@ -590,11 +590,11 @@ services:
     depends_on:
       - redis
     environment:
-      - _APP_ENV
-      - _APP_REDIS_HOST
-      - _APP_REDIS_PORT
-      - _APP_REDIS_USER
-      - _APP_REDIS_PASS
+      - _APP_ENV=production
+      - _APP_REDIS_HOST=redis
+      - _APP_REDIS_PORT=6379
+      - _APP_REDIS_USER=
+      - _APP_REDIS_PASS=
 
   mariadb:
     image: mariadb:10.7 # fix issues when upgrading using: mysql_upgrade -u root -p
