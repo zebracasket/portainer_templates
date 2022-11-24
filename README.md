@@ -33,6 +33,13 @@ All templates are already configured to bind mount to various places on your dri
 ## Update:
 
 <details>
+<summary>24/11/2022</summary>
+<br>
+- Mailpile
+- Appwrite
+</details>
+
+<details>
 <summary>18/11/2022</summary>
 <br>
 - Poste.io
