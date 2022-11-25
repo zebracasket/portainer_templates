@@ -37,7 +37,6 @@ All templates are already configured to bind mount to various places on your dri
 <br>
 - Mailpile
 - Appwrite
-- Kcal
 </details>
 
 <details>
