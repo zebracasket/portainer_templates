@@ -553,6 +553,6 @@ Wiki:
 * **Jos Visser** - *Initial work* - [Qballjos](https://github.com/Qballjos)
 * **Vagelis Fragkos** - *This forked repo from Qballjos* - [xneo1](https://github.com/xneo1)
 * **xe-nvdk** - *template conversion to portainer V2* - [xe-nvdk](https://github.com/xe-nvdk)
-* **tbiering** - *Termplate cleanup and typo fixes* - [tbiering](https://github.com/tbiering)
+* **tbiering** - *Template cleanup and typo fixes* - [tbiering](https://github.com/tbiering)
 
 See also the list of [contributors](https://github.com/xneo1/portainer_templates/graphs/contributors) who participated in this project.
