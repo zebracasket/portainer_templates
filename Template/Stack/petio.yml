@@ -2,14 +2,14 @@
 version: "2"
 services:
   petio:
-    image: hotio/petio
+    image: ghcr.io/petio-team/petio
     container_name: petio
     environment:
       - PUID=0
       - PGID=0
       - TZ=Europe/Athens
     volumes:
-      - /portainer/Files/AppData/Config/petio/Config:/config
+      - /portainer/Files/AppData/Config/petio:/config
     ports:
       - 7777:7777
     restart: unless-stopped
@@ -23,6 +23,6 @@ services:
       - PGID=0
       - TZ=Europe/Athens
     volumes:
-      - /portainer/AppData/Config/petio/mongo_db/config:/data/configdb
-      - /portainer/AppData/Config/petio/mongo_db/DB:/data/db
+      - /portainer/Files/AppData/Config/petio/mongo_db/config:/data/configdb
+      - /portainer/Files/AppData/Config/petio/mongo_db/DB:/data/db
     restart: unless-stopped
