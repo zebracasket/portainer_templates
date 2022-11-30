@@ -16,7 +16,7 @@ services:
     depends_on:
       - petio_mongo_db
   petio_mongo_db:
-    image: mongo
+    image: mongo:4.4.18
     container_name: petio_mongo_db
     environment:
       - PUID=0
