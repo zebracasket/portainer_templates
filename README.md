@@ -33,6 +33,12 @@ All templates are already configured to bind mount to various places on your dri
 ## Update:
 
 <details>
+<summary>30/11/2022</summary>
+<br>
+- Readarr
+</details>
+
+<details>
 <summary>24/11/2022</summary>
 <br>
 - Mailpile
