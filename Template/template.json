@@ -4219,10 +4219,7 @@
     }, 
     {
       "categories": ["Files"],
-      "description": "A Dropbox-like file manager that let you manage your data anywhere it is located:
-FTP • FTPS • SFTP • WebDAV • Git • S3 • NFS • Samba • LDAP • Mysql
-Storj • CardDAV • CalDAV • Backblaze B2 • Minio
-Dropbox • Google Drive", 
+      "description": "A Dropbox-like file manager that let you manage your data anywhere it is located: FTP • FTPS • SFTP • WebDAV • Git • S3 • NFS • Samba • LDAP • Mysql Storj • CardDAV • CalDAV • Backblaze B2 • MinioDropbox • Google Drive", 
       "logo": "https://downloads.filestash.app/brand/logo_white.svg",
       "name": "filestash",
       "platform": "linux",
