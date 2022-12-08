@@ -36,6 +36,7 @@ All templates are already configured to bind mount to various places on your dri
 <summary>08/12/2022</summary>
 <br>
 - Silverstripe CMS
+- FileStash
 </details>
 
 <details>
