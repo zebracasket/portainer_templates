@@ -3,7 +3,7 @@ services:
   silverstripe:
     image: brettt89/silverstripe-web:8.1-apache
     volumes:
-       - /portainer/Files/AppData/Config/silverstrip:/var/www/html
+       - /portainer/Files/AppData/Config/silverstripe:/var/www/html
     depends_on:
        - silverstripe-db
     environment:
@@ -21,6 +21,6 @@ services:
     environment:
        - MYSQL_ALLOW_EMPTY_PASSWORD=yes
     volumes:
-       - /portainer/Files/AppData/Config/silverstrip/db-data:/var/lib/mysql
+       - /portainer/Files/AppData/Config/silverstripe/db-data:/var/lib/mysql
 volumes:
      db-data:
