@@ -1,6 +1,7 @@
 ~~Nov21|Dec21|Jan22|Feb22|Mar22|Apr22|May22|Jun22|Jul22|Aug22|Sep22|Oct22|Nov22|~~ Dec22
 
-**November 2022: Keep on adding stuff!**
+**December 2022: Keep on adding stuff!**
+TBD: New Readme page, smaller and more fancy looking!
 # Portainer V2 Templates for Selfhosted Projects/Homelabs
 
 This is a template focused on helping people spin up selfhosted services using Portainer, forked from [Qballjos](https://github.com/Qballjos/portainer_templates).
