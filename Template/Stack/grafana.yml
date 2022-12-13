@@ -10,4 +10,4 @@ services:
       volumes:
         - /portainer/Files/AppData/Config/grafana:/var/lib/grafana
       user: "0"
-##With this one we install Latest Grafana which in December 13th 2022 is 9.1
+##With this one we install Latest Grafana which in December 13th 2022 is 9.3.1
