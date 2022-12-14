@@ -30,4 +30,3 @@ services:
     restart: on-failure:10
     depends_on:
       - influxdb
-  influxdb2:
