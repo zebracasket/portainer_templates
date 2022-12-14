@@ -36,6 +36,13 @@ All templates are already configured to bind mount to various places on your dri
 ## Update:
 
 <details>
+<summary>13/12/2022</summary>
+<br>
+- Influxdb2 & Telegraf
+- Influxdb2 (standalone)
+</details>
+
+<details>
 <summary>12/12/2022</summary>
 <br>
 - Grafana (latest)
