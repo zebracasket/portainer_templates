@@ -35,6 +35,13 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+
+<details>
+<summary>15/12/2022</summary>
+<br>
+- YourSpotify
+</details>
+
 <details>
 <summary>13/12/2022</summary>
 <br>
