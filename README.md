@@ -38,9 +38,11 @@ All templates are already configured to bind mount to various places on your dri
 <details>
 <summary>19/12/2022</summary>
 <br>
-- Medusa (e-Commerce CMS)
-- Castopod
-- Mautic
+ <ol>
+  <li>- Medusa (e-Commerce CMS)</li>
+  <li>- Castopod</li>
+  <li>- Mautic</li>
+</ol> 
 </details>
 
 <details>
