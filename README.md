@@ -35,6 +35,11 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+<details>
+<summary>19/12/2022</summary>
+<br>
+- Medusa (e-Commerce CMS)
+</details>
 
 <details>
 <summary>15/12/2022</summary>
