@@ -14,8 +14,8 @@ services:
       NODE_ENV: production
       STORE_CORS: http://localhost
     volumes:
-      - /portainer/Files/AppData/Config/medusa/backend:/app/medusa
-      - /portainer/Files/AppData/Config/medusa/backend/node_modules:/app/medusa/node_modules  
+      - /portainer/Files/AppData/Config/medusacms/backend:/app/medusa
+      - /portainer/Files/AppData/Config/medusacms/backend/node_modules:/app/medusa/node_modules  
     ports:
       - "9009:9000"
 
@@ -53,8 +53,8 @@ services:
     environment:
       NODE_ENV: production
     volumes:
-      - /portainer/Files/AppData/Config/medusa/storefront:/app/storefront
-      - /portainer/Files/AppData/Config/medusa/storefront/node_modules:/app/storefront/node_modules  
+      - /portainer/Files/AppData/Config/medusacms/storefront:/app/storefront
+      - /portainer/Files/AppData/Config/medusacms/storefront/node_modules:/app/storefront/node_modules  
     depends_on:
       - medusa-backend
     ports:
