@@ -4218,6 +4218,19 @@
       "type": 3
     }, 
     {
+      "categories": ["CMS"],
+      "description": "Medusa is an open-source headless commerce engine that enables developers to create amazing digital commerce experiences.", 
+      "logo": "https://user-images.githubusercontent.com/7554214/153162406-bf8fd16f-aa98-4604-b87b-e13ab4baf604.png",
+      "name": "medusa",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/medusa.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Medusa",
+      "type": 3
+    }, 
+    {
       "categories": ["Music","Monitoring"],
       "description": "YourSpotify is a self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it!", 
       "logo": "",
