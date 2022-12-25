@@ -4218,6 +4218,19 @@
       "type": 3
     }, 
     {
+      "categories": ["Employee"],
+      "description": "ChiefOnboarding is a free and open source employee onboarding platform. You can onboarding new hires through Slack or the dashboard.", 
+      "logo": "https://chiefonboarding.com/wp-content/uploads/2022/07/ChiefOnBoarding-768x138.png",
+      "name": "chiefonboarding",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/chiefonboarding.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Chiefonboarding",
+      "type": 3
+    }, 
+    {
       "categories": ["Podcast"],
       "description": "Castopod is a free and open-source hosting platform made for podcasters.", 
       "logo": "https://pbs.twimg.com/profile_images/1313854745161932800/w_qe6Qq6_400x400.png",
