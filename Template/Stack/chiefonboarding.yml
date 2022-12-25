@@ -25,7 +25,7 @@ services:
     environment:
       - DEBUG=True
       - SECRET_KEY=somethingsupersecret
-      - BASE_URL=http://0.0.0.0:3000
+      - BASE_URL=http://0.0.0.0:3111
       - DATABASE_URL=postgres://postgres:postgres@db:5432/postgres
       - DEFAULT_FROM_EMAIL=hello@chiefonboarding.com
       - ACCOUNT_EMAIL=admin@example.com
