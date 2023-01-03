@@ -4218,6 +4218,19 @@
       "type": 3
     }, 
     {
+      "categories": ["Messaging"],
+      "description": "A TLS proxy relay for the Signal privacy messenger app.", 
+      "logo": "https://avatars.githubusercontent.com/u/702459?s=200&v=4",
+      "name": "signal",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/signal.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Signal Proxy",
+      "type": 3
+    }, 
+    {
       "categories": ["Employee"],
       "description": "ChiefOnboarding is a free and open source employee onboarding platform. You can onboarding new hires through Slack or the dashboard.", 
       "logo": "https://chiefonboarding.com/wp-content/uploads/2022/07/ChiefOnBoarding-768x138.png",
