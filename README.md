@@ -35,6 +35,17 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+
+** Happy New Year 2023! **
+<details>
+<summary>03/01/2023</summary>
+<br>
+ <ul>
+  <li>Signal proxy</li>
+</ul> 
+</details>
+
+
 <details>
 <summary>25/12/2022</summary>
 <br>
