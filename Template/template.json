@@ -4387,6 +4387,19 @@
       "type": 3
     }, 
     {
+      "categories": ["Multimedia"],
+      "description": "Your media enjoyed through a minimal lightweight media server.", 
+      "logo": "https://github.com/midarrlabs/midarr-server/raw/master/priv/static/logo.svg",
+      "name": "midarr",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/midarr.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Midarr",
+      "type": 3
+    }, 
+    {
       "categories": ["Development"],
       "description": "Appwrite is a self-hosted backend-as-a-service platform that provides developers with all the core APIs required to build any application.", 
       "logo": "https://appwrite.io/images/appwrite.svg",
