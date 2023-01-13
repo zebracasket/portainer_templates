@@ -4374,6 +4374,19 @@
       "type": 3
     }, 
     {
+      "categories": ["Adult"],
+      "description": "Whisparr is an adult movie collection manager for Usenet and BitTorrent users.", 
+      "logo": "https://whisparr.com/logo/256.png",
+      "name": "whisparr",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/whisparr.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Whisparr",
+      "type": 3
+    }, 
+    {
       "categories": ["Development"],
       "description": "Appwrite is a self-hosted backend-as-a-service platform that provides developers with all the core APIs required to build any application.", 
       "logo": "https://appwrite.io/images/appwrite.svg",
