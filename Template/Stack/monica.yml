@@ -4,7 +4,7 @@ services:
   monica-app:
     image: monica:fpm
     depends_on:
-      - db
+      - monica-db
     environment:
       - DB_HOST=db
       - DB_USERNAME=monica
@@ -18,7 +18,7 @@ services:
     ports:
       - 818:80
     depends_on:
-      - app
+      - monica-app
     volumes:
       - /portainer/Files/AppData/Config/monica/:/var/www/html/storage:ro
     restart: always
