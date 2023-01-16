@@ -14,6 +14,7 @@ services:
     restart: always
  
   monica-web:
+    build: web
     ports:
       - 818:80
     depends_on:
