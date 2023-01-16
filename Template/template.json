@@ -3871,22 +3871,17 @@
     },
     {
       "categories": ["Social"],
-      "description": "Monica is a great open source personal relationship management system to organize the interactions with your loved ones.",
-      "image": "monica",
+      "description": "Monica is a great open source personal relationship management system to organize the interactions with your loved ones.", 
       "logo": "https://raw.githubusercontent.com/docker-library/docs/b962028212dbd77c9531dbcf8d5a81db79d4a735/monica/logo.svg",
       "name": "monica",
       "platform": "linux",
-      "ports": ["7777:80/tcp"],
-      "restart_policy": "always",
+      "repository": {
+	    "stackfile": "Template/Stack/monica.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
       "title": "Monica",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/monica",
-          "container": "/var/www/html/storage"
-        }
-      ]
-    },
+      "type": 3
+    }, 
     {
       "categories": ["Network"],
       "description": "NetBox is an infrastructure resource modeling (IRM) application designed to empower network automation. Initially conceived by the network engineering team at DigitalOcean, NetBox was developed specifically to address the needs of network and infrastructure engineers.",
