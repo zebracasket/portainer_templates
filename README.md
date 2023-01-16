@@ -35,8 +35,14 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+<details>
+<summary>16/01/2023</summary>
+<br>
+ <ul>
+  <li>Monica [UPDATE]</li>
+</ul> 
+</details>
 
-** Happy New Year 2023! **
 <details>
 <summary>13/01/2023</summary>
 <br>
