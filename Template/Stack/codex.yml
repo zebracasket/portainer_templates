@@ -1,0 +1,14 @@
+services:
+  codex:
+      environment:
+        - PUID: 1000
+        - PGID: 1000
+        - TZ: Europe/Athens
+      image: docker.io/ajslater/codex
+      container_name: codex
+      volumes:
+          - /portainer/Files/AppData/Config/:/config
+          - /portainer/Files/comics/:/comics:ro
+      ports:
+          - 9810:9810
+      restart: on-failure
