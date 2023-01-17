@@ -4212,6 +4212,19 @@
       "title": "Apprise-API",
       "type": 3
     }, 
+     {
+      "categories": ["ebooks"],
+      "description": "Codex is a web server comic book browser and reader.", 
+      "logo": "https://github.com/ajslater/codex/raw/main/codex/static_src/img/logo.svg",
+      "name": "codex",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/codex.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Codex",
+      "type": 3
+    }, 	  
     {
       "categories": ["Messaging"],
       "description": "A TLS proxy relay for the Signal privacy messenger app.", 
