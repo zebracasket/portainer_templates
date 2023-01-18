@@ -2,7 +2,7 @@
 version: "2.1"
 services:
   baserow:
-    image: baserow/baserow:1.9.1
+    image: baserow/baserow:latest
     container_name: baserow
     environment:
       - TZ=Europe/Athens
