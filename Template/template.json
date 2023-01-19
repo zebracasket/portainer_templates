@@ -4644,7 +4644,7 @@
     {
       "categories": ["Productivity"],
       "description": "Open source no-code database and Airtable alternative.Create your own online database without technical experience. Our user friendly no-code tool gives you the powers of a developer without leaving your browser.", 
-      "logo": "https://baserow.io/_nuxt/img/logo.1421f77.svg",
+      "logo": "https://].io/_nuxt/img/logo.1421f77.svg",
       "name": "Baserow",
       "platform": "linux",
       "repository": {
@@ -4652,6 +4652,19 @@
 	    "url": "https://github.com/xneo1/portainer_templates"
       },  
       "title": "Baserow",
+      "type": 3
+    },
+        {
+      "categories": ["Productivity"],
+      "description": "Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.", 
+      "logo": "https://github.com/nocodb/nocodb/raw/develop/packages/nc-gui/assets/img/icons/512x512.png",
+      "name": "NocoDB",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/nocodb.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "NocoDB",
       "type": 3
     },
     {
