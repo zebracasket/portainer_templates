@@ -31,5 +31,5 @@ services:
       - /portainer/Files/AppData/Config/ferdium:/data
       - /portainer/Files/AppData/Config/ferdium/recipes:/app/recipes
     ports:
-      - 3333:3333
+      - 3334:3333
     restart: always
