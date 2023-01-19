@@ -56,7 +56,7 @@ All templates are already configured to bind mount to various places on your dri
 <summary>16/01/2023</summary>
 <br>
  <ul>
-  <li>Monica [UPDATE]</li>
+  <li>Monica</li>
 </ul> 
 </details>
 
