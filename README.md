@@ -36,6 +36,14 @@ All templates are already configured to bind mount to various places on your dri
 ## Update:
 
 <details>
+<summary>18/01/2023</summary>
+<br>
+ <ul>
+  <li>Ferdium [replaces Ferdi Server]</li>
+</ul> 
+</details
+
+<details>
 <summary>17/01/2023</summary>
 <br>
  <ul>
