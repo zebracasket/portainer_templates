@@ -4146,10 +4146,23 @@
       "title": "Ferdi Server",
       "type": 3
     },
+        {
+      "categories": ["Messenger"],
+      "description": "Ferdium is a messaging browser that allows you to combine your favourite messaging services into one application", 
+      "logo": "https://github.com/ferdium/ferdium-server/raw/main/logo.png",
+      "name": "ferdium",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/ferdium.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },    
+      "title": "Ferdium",
+      "type": 3
+    },
     {
       "categories": ["Other"],
       "description": "Snippet Box is a simple self-hosted app for organizing your code snippets. It allows you to easily create, edit, browse and manage your snippets in various languages.", 
-      "logo": "https://raw.githubusercontent.com/getferdi/server/master/logo.png",
+      "logo": "",
       "name": "snippet-box",
       "platform": "linux",
       "repository": {
