@@ -39,19 +39,18 @@ All templates are already configured to bind mount to various places on your dri
 <summary>18/01/2023</summary>
 <br>
  <ul>
-  <li>Ferdium [replaces Ferdi Server]</li>
+  <li>Ferdium</li>
 </ul> 
-</details
-
+</details>
+ 
 <details>
 <summary>17/01/2023</summary>
 <br>
  <ul>
   <li>Codex</li>
 </ul> 
-</details
-
-
+</details>
+ 
 <details>
 <summary>16/01/2023</summary>
 <br>
@@ -59,7 +58,6 @@ All templates are already configured to bind mount to various places on your dri
   <li>Monica</li>
 </ul> 
 </details>
-
 
 <details>
 <summary>13/01/2023</summary>
