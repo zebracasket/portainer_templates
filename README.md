@@ -39,6 +39,7 @@ All templates are already configured to bind mount to various places on your dri
 <summary>27/01/2023</summary>
 <br>
  <ul>
+  <li>FreeScout</li>
   <li>Wger</li>
   <li>Tdarr</li>
   <li>Uptime Kuma (update)</li>
