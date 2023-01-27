@@ -4234,6 +4234,19 @@
       "type": 3
     }, 
     {
+      "categories": ["Fitness"],
+      "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker written with Django", 
+      "logo": "https://raw.githubusercontent.com/wger-project/wger/master/wger/core/static/images/logos/logo.png",
+      "name": "wger",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/wger.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Wger",
+      "type": 3
+    },   
+    {
       "categories": ["Docker"],
       "description": "Docker Container Stats is a web interface for viewing historical and current statistics per docker container (cpu, mem, net i/o, block i/o) - in a docker container.", 
       "logo": "",
