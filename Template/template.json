@@ -1008,7 +1008,7 @@
       ]
     },
     {
-      "categories": ["Other"],
+      "categories": ["Feed Reader"],
       "description": "A free, self-hostable rss aggregator.",
       "env": [
         {
@@ -1037,6 +1037,19 @@
         }
       ]
     },
+    {
+      "categories": ["Feed Reader"],
+      "description": "Miniflux is a minimalist and opinionated feed reader.", 
+      "logo": "",
+      "name": "miniflux",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/miniflux.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Miniflux",
+      "type": 3
+    }, 
     {
       "categories": ["Web", "Books", "Tools"],
       "description": "A WebApp Comic Reader for your favorite digital comics. Reach and read your comic library from any web connected device with a modern web browser.",
