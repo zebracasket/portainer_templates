@@ -351,6 +351,19 @@ All templates are already configured to bind mount to various places on your dri
 <br></br>
 </details>
 
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### We can hide anything, even code!
+
+```ruby
+   puts "Hello World"
+```
+
+</p>
+</details>
+
 ## 
 Other:
   - Adguard
