@@ -349,23 +349,14 @@ All templates are already configured to bind mount to various places on your dri
   - WebTop [ubuntu-kde]
   - Littlelink-server by Techno Tim
 <br></br>
-</details>
-
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### We can hide anything, even code!
-
-```ruby
-   puts "Hello World"
-```
-
-</p>
-</details>
+<br></br>
 
 ## 
-Other:
+</details>
+
+
+<details><summary>Other:</summary>
+<p>
   - Adguard
   - Authelia
   - Vaultwarden
@@ -376,6 +367,9 @@ Other:
   - Dashmachine
   - Davos
   - Apprise-API
+</p>
+</details>
+Other:
 
 Browsers:
   - Firefox
