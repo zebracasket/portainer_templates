@@ -3834,23 +3834,18 @@
       ]
     },
     {
-      "categories": ["Tools", "Network"],
-      "description": "It is a self-hosted monitoring tool like Uptime Robot",
-      "image": "louislam/uptime-kuma:latest",
+      "categories": ["Tools", "Network"]],
+      "description": "It is a self-hosted monitoring tool like Uptime Robot", 
       "logo": "https://images.opencollective.com/uptime-kuma/29c5113/logo/256.png",
       "name": "uptime-kuma",
       "platform": "linux",
-      "ports": ["3001:3001/tcp"],
-      "restart_policy": "always",
+      "repository": {
+	    "stackfile": "Template/Stack/uptimekuma.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
       "title": "Uptime Kuma",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/UptimeKuma",
-          "container": "/app/data"
-        }
-      ]
-    },
+      "type": 3
+    },	  
     {
       "categories": ["Tools"],
       "description": "Dozzle is a small lightweight application with a web based interface to monitor Docker logs. It doesn’t store any log files. It is for live monitoring of your container logs only.",
