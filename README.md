@@ -35,6 +35,10 @@ All templates are already configured to bind mount to various places on your dri
 ## App List
 ## Update:
 
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
 <details>
 <summary>27/01/2023</summary>
 <br>
