@@ -4234,6 +4234,19 @@
       "type": 3
     }, 
     {
+      "categories": ["Helpdesk"],
+      "description": "FreeScout is the super lightweight free open source help desk and shared inbox written in PHP (Laravel framework) – self hosted clone of HelpScout.", 
+      "logo": "https://raw.githubusercontent.com/freescout-helpdesk/freescout/master/public/img/logo-300.png",
+      "name": "freescout",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/freescout.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Freescout",
+      "type": 3
+    },   
+    {
       "categories": ["Fitness"],
       "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker written with Django", 
       "logo": "https://raw.githubusercontent.com/wger-project/wger/master/wger/core/static/images/logos/logo.png",
