@@ -369,7 +369,6 @@ All templates are already configured to bind mount to various places on your dri
   - Apprise-API
 </p>
 </details>
-Other:
 
 Browsers:
   - Firefox
