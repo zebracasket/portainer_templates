@@ -4273,6 +4273,19 @@
       "type": 3
     }, 
     {
+      "categories": ["Learning"],
+      "description": "Moodle is a learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments.", 
+      "logo": "https://download.moodle.org/theme/moodleorgcleaned/pix/moodle_logo_TM.svg",
+      "name": "moodle",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/moodle.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Moodle",
+      "type": 3
+    }, 
+    {
       "categories": ["Helpdesk"],
       "description": "FreeScout is the super lightweight free open source help desk and shared inbox written in PHP (Laravel framework) – self hosted clone of HelpScout.", 
       "logo": "https://raw.githubusercontent.com/freescout-helpdesk/freescout/master/public/img/logo-300.png",
