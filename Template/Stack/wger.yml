@@ -10,8 +10,8 @@ services:
     env_file:
       - ./config/prod.env
     volumes:
-      - static:/home/wger/static
-      - media:/home/wger/media
+      - /portainer/Files/AppData/Config/wger/static:/home/wger/static
+      - /portainer/Files/AppData/Config/wger/media:/home/wger/media
       # For development, mount your local git checkout
       # - type: bind
       #  source: /path/to/wger/sourcecode
@@ -31,11 +31,11 @@ services:
     depends_on:
       - wger-web
     volumes:
-      - ./config/nginx.conf:/etc/nginx/conf.d/default.conf
-      - static:/wger/static:ro
-      - media:/wger/media:ro
+      - /portainer/Files/AppData/Config/wger/nginx.conf:/etc/nginx/conf.d/default.conf
+      - /portainer/Files/AppData/Config/wger/static:/wger/static:ro
+      - /portainer/Files/AppData/Config/wger/media:/wger/media:ro
     ports:
-      - "80:80"
+      - "680:80"
     healthcheck:
       test: service nginx status
       interval: 10s
@@ -51,7 +51,7 @@ services:
       - POSTGRES_PASSWORD=wger
       - POSTGRES_DB=wger
     volumes:
-      - postgres-data:/var/lib/postgresql/data/
+      - /portainer/Files/AppData/Config/wger/postgres-data:/var/lib/postgresql/data/
     expose:
       - 5432
     healthcheck:
