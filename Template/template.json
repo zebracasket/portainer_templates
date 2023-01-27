@@ -4234,6 +4234,19 @@
       "type": 3
     }, 
     {
+      "categories": ["Time Tracking"],
+      "description": "Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tagged time spans.", 
+      "logo": "https://traggo.net/images/favicon.png",
+      "name": "traggo",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/traggo.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Traggo",
+      "type": 3
+    }, 
+    {
       "categories": ["Helpdesk"],
       "description": "FreeScout is the super lightweight free open source help desk and shared inbox written in PHP (Laravel framework) – self hosted clone of HelpScout.", 
       "logo": "https://raw.githubusercontent.com/freescout-helpdesk/freescout/master/public/img/logo-300.png",
