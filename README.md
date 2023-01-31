@@ -36,6 +36,14 @@ All templates are already configured to bind mount to various places on your dri
 ## Update:
 
 <details>
+<summary>31/01/2023</summary>
+<br>
+ <ul>
+  <li>AppSmith</li>
+ </ul>
+</details>
+
+<details>
 <summary>27/01/2023</summary>
 <br>
  <ul>
