@@ -4546,6 +4546,32 @@
       "type": 3
     }, 
     {
+      "categories": ["Identity Management", "Security"],
+      "description": "Ory Kratos is _the_ developer-friendly, security-hardened and battle-test Identity, User Management and Authentication system for the Cloud.", 
+      "logo": "https://raw.githubusercontent.com/ory/meta/master/static/banners/kratos.svg",
+      "name": "Ory Kratos",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/ory-kratos-standalone.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Ory Kratos (Standalone)",
+      "type": 3
+    }, 	
+    {
+      "categories": ["Identity Management", "Security"],
+      "description": "Ory Kratos is _the_ developer-friendly, security-hardened and battle-test Identity, User Management and Authentication system for the Cloud.", 
+      "logo": "https://raw.githubusercontent.com/ory/meta/master/static/banners/kratos.svg",
+      "name": "Ory Kratos",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/ory-kratos-oauthkeeper.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Ory Kratos (Oauthkeeper)",
+      "type": 3
+    }, 	
+    {
       "categories": ["Productivity" , "Development" , "Low-code"],
       "description": "Appsmith (www.appsmith.com) is the first open-source low code tool that helps developers build dashboards and admin panels very quickly.", 
       "logo": "https://cdn-images.himalayas.app/vr60veq4neiptamhqm6qxwi3toi3",
