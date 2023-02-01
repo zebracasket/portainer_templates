@@ -40,6 +40,7 @@ All templates are already configured to bind mount to various places on your dri
 <br>
  <ul>
   <li>AppSmith</li>
+  <li>Budibase</li>
  </ul>
 </details>
 
