@@ -4546,6 +4546,19 @@
       "type": 3
     }, 
     {
+      "categories": ["Search"],
+      "description": "Meilisearch is a **RESTful search API**. It aims to be a **ready-to-go solution** for everyone who wants a **fast and relevant search experience** for their end-users", 
+      "logo": "https://docs.meilisearch.com/logo.svg",
+      "name": "Meilisearch",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/meilisearch.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Meilisearch",
+      "type": 3
+    }, 
+    {
       "categories": ["Identity Management", "Access proxy"],
       "description": "Ory Kratos with Oathkeeper is _the_ developer-friendly, security-hardened and battle-test Identity, User Management and Authentication system for the Cloud.", 
       "logo": "https://raw.githubusercontent.com/ory/meta/master/static/banners/kratos.svg",
