@@ -4780,7 +4780,7 @@
       "type": 3
     },
         {
-      "categories": ["Productivity"],
+      "categories": ["Productivity" , "Development" , "No-code"],
       "description": "Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.", 
       "logo": "https://github.com/nocodb/nocodb/raw/develop/packages/nc-gui/assets/img/icons/512x512.png",
       "name": "NocoDB",
