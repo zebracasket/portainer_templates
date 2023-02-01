@@ -39,6 +39,7 @@ All templates are already configured to bind mount to various places on your dri
 <summary>01/02/2023</summary>
 <br>
  <ul>
+  <li>Meilisearch</li>
   <li>Ory Kratos (Oathkeeper)</li>
   <li>Ory Kratos (Standalone)</li>
   <li>Budibase</li>
