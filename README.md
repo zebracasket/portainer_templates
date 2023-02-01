@@ -41,6 +41,7 @@ All templates are already configured to bind mount to various places on your dri
  <ul>
   <li>AppSmith</li>
   <li>Budibase</li>
+  <li>Ory Kratos</li>
  </ul>
 </details>
 
