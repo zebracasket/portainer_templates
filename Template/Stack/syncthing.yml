@@ -10,7 +10,7 @@ services:
       - PGID=1000
       - TZ=Europe/Athens
     volumes:
-      - /portainer/Files/AppData/Config/syncthing/appdata/config:/config
+      - /portainer/Files/AppData/Config/syncthing:/config
       - /portainer:/portainer
     ports:
       - 8384:8384
