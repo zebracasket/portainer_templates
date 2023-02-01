@@ -4565,10 +4565,10 @@
       "name": "Ory Kratos",
       "platform": "linux",
       "repository": {
-	    "stackfile": "Template/Stack/ory-kratos-oauthkeeper.yml",
+	    "stackfile": "Template/Stack/ory-kratos-oathkeeper.yml",
 	    "url": "https://github.com/xneo1/portainer_templates"
       },  
-      "title": "Ory Kratos (Oauthkeeper)",
+      "title": "Ory Kratos (Oathkeeper)",
       "type": 3
     }, 	
     {
