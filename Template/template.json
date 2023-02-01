@@ -4533,7 +4533,7 @@
       "type": 3
     },
     {
-      "categories": ["Productivity"],
+      "categories": ["Productivity" , "Development" , "Low-code"],
       "description": "Appsmith (www.appsmith.com) is the first open-source low code tool that helps developers build dashboards and admin panels very quickly.", 
       "logo": "https://cdn-images.himalayas.app/vr60veq4neiptamhqm6qxwi3toi3",
       "name": "appsmith",
@@ -4754,7 +4754,7 @@
       "type": 3
     },
     {
-      "categories": ["Productivity"],
+      "categories": ["Productivity" , "Development" , "No-code"],
       "description": "Open source no-code database and Airtable alternative.Create your own online database without technical experience. Our user friendly no-code tool gives you the powers of a developer without leaving your browser.", 
       "logo": "https://].io/_nuxt/img/logo.1421f77.svg",
       "name": "Baserow",
