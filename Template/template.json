@@ -3408,39 +3408,6 @@
       ]
     },
     {
-      "categories": ["Backup", "Cloud", "Tools"],
-      "description": "Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.",
-      "env": [
-        {
-          "default": "1000",
-          "label": "PUID",
-          "name": "PUID"
-        },
-        {
-          "default": "100",
-          "label": "PGID",
-          "name": "PGID"
-        }
-      ],
-      "image": "linuxserver/syncthing:latest",
-      "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/syncthing-icon.png",
-      "name": "syncthing",
-      "platform": "linux",
-      "ports": ["8384:8384/tcp", "21027:21027/udp", "22000:22000/tcp"],
-      "restart_policy": "unless-stopped",
-      "title": "SyncThing",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/Syncthing",
-          "container": "/config"
-        },
-        {
-          "container": "/sync"
-        }
-      ]
-    },
-    {
       "categories": ["Tools"],
       "description": "Tautulli is a 3rd party application that you can run along side your Plex Media Server to monitor activity and track various statistics. Most importantly, these statistics include what has been watched, who watched it, when and where they watched it, and how it was watched. All statistics are presented in a nice and clean interface with many tables and graphs, which makes it easy to brag about your server to everyone else.",
       "env": [
@@ -4533,7 +4500,7 @@
       "type": 3
     },
     {
-      "categories": ["Sync", "File management"],
+      "categories": ["Sync", "Backup" , "Cloud", "Tools"],
       "description": "Syncthing", 
       "logo": "https://github.com/syncthing/syncthing/raw/main/assets/logo-text-128.png",
       "name": "Syncthing",
