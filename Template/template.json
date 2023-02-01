@@ -4501,7 +4501,7 @@
     },
     {
       "categories": ["Sync", "Backup" , "Cloud", "Tools"],
-      "description": "Syncthing", 
+      "description": "Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. ", 
       "logo": "https://github.com/syncthing/syncthing/raw/main/assets/logo-text-128.png",
       "name": "Syncthing",
       "platform": "linux",
