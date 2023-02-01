@@ -4533,6 +4533,19 @@
       "type": 3
     },
     {
+      "categories": ["Sync", "File management"],
+      "description": "Syncthing", 
+      "logo": "https://github.com/syncthing/syncthing/raw/main/assets/logo-text-128.png",
+      "name": "Syncthing",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/syncthing.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Syncthing",
+      "type": 3
+    }, 	  
+    {
       "categories": ["Productivity" , "Development" , "Low-code" , "No-code"],
       "description": "Budibase allows no-code users to build apps quickly, with more functionality available with a little bit of inline code.", 
       "logo": "https://files.readme.io/593b386-budibase-logo-website.svg",
