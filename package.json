@@ -5,7 +5,7 @@
   "private": true,
   "devDependencies": {
     "jsonlint": "^1.6.3",
-    "yaml-validator": "^3.0.1"
+    "yaml-validator": "^4.0.0"
   },
   "scripts": {
     "pretest": "jsonlint Template/template.json --quiet",
