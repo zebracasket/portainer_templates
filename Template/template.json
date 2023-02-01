@@ -4533,6 +4533,19 @@
       "type": 3
     },
     {
+      "categories": ["Productivity"],
+      "description": "Appsmith (www.appsmith.com) is the first open-source low code tool that helps developers build dashboards and admin panels very quickly.", 
+      "logo": "https://cdn-images.himalayas.app/vr60veq4neiptamhqm6qxwi3toi3",
+      "name": "appsmith",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/appsmith.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Appsmith",
+      "type": 3
+    }, 	  
+    {
       "categories": ["email"],
       "description": "Mailpile is an e-mail client!/search engine and a personal webmail server/easy way to encrypt your e-mail/easy way to encrypt your e-mail ", 
       "logo": "https://www.mailpile.is/img/icon-512x512.png",
