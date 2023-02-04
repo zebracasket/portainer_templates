@@ -54,10 +54,8 @@ services:
     image: postgrest/postgrest:v10.1.1.20221215
     ports:
       - "7001:3000"
-    environment:
-      PGRST_HOST: http://127.0.0.1:7001
-      PGRST_DB_URI: postgres://app_user:password@db:5432/app_db
-      PGRST_OPENAPI_SERVER_PROXY_URI: http://127.0.0.1:7001
+    env_file:
+      - /portainer/Files/AppData/Config/tooljet/server/.env
     depends_on:
       - tooljet-postgres
 
