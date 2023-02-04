@@ -36,13 +36,13 @@ services:
     image: tooljet-server:development
     platform: linux/x86_64
     depends_on:
-      - postgres
+      - tooljet-postgres
     volumes:
       - /portainer/Files/AppData/Config/tooljet/server:/app/server:delegated
-      - ./plugins:/app/plugins
-      - /app/server/node_modules/
-      - ./.env:/app/.env
-      - ./.env.test:/app/.env.test
+      - /portainer/Files/AppData/Config/tooljet/server/plugins:/app/plugins
+      - /portainer/Files/AppData/Config/tooljet/server/app/server/node_modules/
+      - /portainer/Files/AppData/Config/tooljet/server/.env:/app/.env
+      - /portainer/Files/AppData/Config/tooljet/server/.env.test:/app/.env.test
     ports:
       - 3000:3000
     environment:
@@ -57,7 +57,7 @@ services:
     env_file:
       - .env
     depends_on:
-      - postgres
+      - tooljet-postgres
 
   tooljet-postgres:
     image: postgres:13
