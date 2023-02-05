@@ -39,6 +39,7 @@ All templates are already configured to bind mount to various places on your dri
 <summary>05/02/2023</summary>
 <br>
  <ul>
+  <li>UpSnap</li>
   <li>Excalidraw</li>
  </ul>
 </details>
