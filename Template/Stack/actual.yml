@@ -1,0 +1,13 @@
+version: "3"
+services:
+  actual_server:
+    container_name: actual_server
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "5006:5006"
+    volumes:
+      - /portainer/Files/AppData/Config/actual/server-files:/app/server-files
+      - /portainer/Files/AppData/Config/actual/user-files:/app/user-files
+    restart: unless-stopped
