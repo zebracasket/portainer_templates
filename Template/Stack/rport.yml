@@ -1,0 +1,20 @@
+version: '3.9'
+services:
+  rport-server:
+    container_name: rport
+    image: iotech17/rport:latest
+    restart: always
+    privileged: true
+    ports:
+      - 3000:3000
+      - 4822:4822
+      - 10000:8080
+      - 20000-20100:20000-20100
+    volumes:
+      - /portainer/Files/AppData/Config/rport/rportd.conf:/etc/rport/rportd.conf:ro
+      - /portainer/Files/AppData/Config/rport/rport.key:/var/lib/rport/rport.key:ro
+      - /portainer/Files/AppData/Config/rport/rport.crt:/var/lib/rport/rport.crt:ro
+      - /portainer/Files/AppData/Config/rport/data:/var/lib/rport/
+
+volumes:
+  data:
