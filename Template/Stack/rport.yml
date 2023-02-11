@@ -11,10 +11,15 @@ services:
       - 10000:8080
       - 20000-20100:20000-20100
     volumes:
-      - /portainer/Files/AppData/Config/rport/rportd.conf:/etc/rport/rportd.conf:ro
-      - /portainer/Files/AppData/Config/rport/rport.key:/var/lib/rport/rport.key:ro
-      - /portainer/Files/AppData/Config/rport/rport.crt:/var/lib/rport/rport.crt:ro
-      - /portainer/Files/AppData/Config/rport/data:/var/lib/rport/
-
-volumes:
-  data:
+      - type: bind
+        source: /portainer/Files/AppData/Config/rport/rportd.conf
+        target: /etc/rport/rportd.conf:ro
+      - type: bind
+        source: /portainer/Files/AppData/Config/rport/rport.key
+        target: /var/lib/rport/rport.key:ro
+      - type: bind
+        source: /portainer/Files/AppData/Config/rport/rport.crt
+        target: /var/lib/rport/rport.crt:ro
+      - type: bind
+        source: /portainer/Files/AppData/Config/rport/data
+        target: /var/lib/rport/
