@@ -39,6 +39,7 @@ All templates are already configured to bind mount to various places on your dri
 <summary>11/02/2023</summary>
 <br>
  <ul>
+  <li>Tabby</li>
   <li>Remotely</li>
   <li>Rport</li>
   <li>Rust Desk</li>
