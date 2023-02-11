@@ -36,6 +36,15 @@ All templates are already configured to bind mount to various places on your dri
 ## Update:
 
 <details>
+<summary>11/02/2023</summary>
+<br>
+ <ul>
+  <li>Rust Desk</li>
+  <li>MeshCentral</li>
+ </ul>
+</details>
+
+<details>
 <summary>05/02/2023</summary>
 <br>
  <ul>
