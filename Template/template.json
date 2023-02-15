@@ -4500,6 +4500,19 @@
       "type": 3
     },
     {
+      "categories": ["Dashboard"],
+      "description": "Simplify the management of your server with Homarr - a sleek, modern dashboard that puts all of your apps and services at your fingertips.", 
+      "logo": "https://homarr.dev/img/logo.svg",
+      "name": "homarr",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/homarr.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Homarr",
+      "type": 3
+    },
+    {
       "categories": ["Remote Control"],
       "description": "MeshCentral is a full computer management web site. With MeshCentral, you can run your own web server to remotely manage and control computers on a local network or anywhere on the internet. ", 
       "logo": "https://repository-images.githubusercontent.com/101663032/a0f76700-4b4f-11eb-981e-ee7eea9fddf2",
