@@ -4500,6 +4500,19 @@
       "type": 3
     },
     {
+      "categories": ["Wiki", "Knowledge Base"],
+      "description": "Documize Community is an open source, modern, self-hosted, enterprise-grade knowledge management solution.", 
+      "logo": "",
+      "name": "documize",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/documize.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Documize",
+      "type": 3
+    },
+    {
       "categories": ["Dashboard"],
       "description": "Simplify the management of your server with Homarr - a sleek, modern dashboard that puts all of your apps and services at your fingertips.", 
       "logo": "https://homarr.dev/img/logo.svg",
