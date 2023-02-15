@@ -36,6 +36,14 @@ All templates are already configured to bind mount to various places on your dri
 ## Update:
 
 <details>
+<summary>15/02/2023</summary>
+<br>
+ <ul>
+  <li>Homarr</li>
+ </ul>
+</details>
+
+<details>
 <summary>11/02/2023</summary>
 <br>
  <ul>
