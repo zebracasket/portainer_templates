@@ -39,6 +39,7 @@ All templates are already configured to bind mount to various places on your dri
 <summary>15/02/2023</summary>
 <br>
  <ul>
+  <li>Documize</li>
   <li>Dashdot (updated)</li>
   <li>Homarr</li>
  </ul>
