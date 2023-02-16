@@ -4214,6 +4214,19 @@
       "type": 3
     },
     {
+      "categories": ["Photos", "AI"],
+      "description": "Immich is a high performance self-hosted photo and video backup solution.", 
+      "logo": "https://github.com/immich-app/immich/raw/main/design/immich-logo.svg",
+      "name": "immich",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/immich/immich.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Immich",
+      "type": 3
+    },	  
+    {
       "categories": ["API"],
       "description": "Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.70+ services", 
       "logo": "https://raw.githubusercontent.com/caronc/apprise/master/apprise/assets/themes/default/apprise-logo.png",
