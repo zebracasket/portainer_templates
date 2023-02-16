@@ -62,6 +62,8 @@ services:
     container_name: immich_redis
     image: redis:6.2
     restart: always
+    environment:
+      - REDIS_HOSTNAME=immich_redis
 
   immich-database:
     container_name: immich_postgres
