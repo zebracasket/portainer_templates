@@ -75,7 +75,6 @@ services:
     container_name: immich_proxy
     image: altran1502/immich-proxy:release
     environment:
-      # Make sure these values get passed through from the env file
       - IMMICH_SERVER_URL= http://immich-server:3301
       - IMMICH_WEB_URL= http://immich-web:3300
     ports:
