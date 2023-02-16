@@ -12,6 +12,7 @@ services:
       - IMMICH_WEB_URL=http://immich-web:3300
       - IMMICH_SERVER_URL=http://immich-server:3301
       - IMMICH_MACHINE_LEARNING_URL=http://immich-machine-learning:3303
+      - UPLOAD_LOCATION= /portainer/Files/AppData/Config/immich
     depends_on:
       - immich-redis
       - immich-database
@@ -25,6 +26,7 @@ services:
       - ${UPLOAD_LOCATION}:/usr/src/app/upload
     environment:
       - NODE_ENV=production
+      - UPLOAD_LOCATION= /portainer/Files/AppData/Config/immich
     depends_on:
       - immich-redis
       - immich-database
@@ -39,6 +41,7 @@ services:
     environment:
       - NODE_ENV=production
       - IMMICH_MACHINE_LEARNING_URL=http://immich-machine-learning:3303
+      - UPLOAD_LOCATION= /portainer/Files/AppData/Config/immich
     depends_on:
       - immich-database
     restart: always
