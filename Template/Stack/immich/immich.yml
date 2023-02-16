@@ -56,6 +56,7 @@ services:
     entrypoint: ["/bin/sh", "./entrypoint.sh"]
     environment:
       - IMMICH_WEB_URL=http://immich-web:3300
+      - VITE_SERVER_ENDPOINT=http://immich-web:2283/api
     restart: always
 
   immich-redis:
