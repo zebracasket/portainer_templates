@@ -29,6 +29,10 @@ services:
       - /portainer/Files/AppData/Config/immich:/usr/src/app/upload
     environment:
       - NODE_ENV=production
+      - DB_HOSTNAME=immich_postgres
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=postgres
+      - DB_DATABASE_NAME=immich
     depends_on:
       - immich-redis
       - immich-database
