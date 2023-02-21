@@ -4,7 +4,8 @@
 
 TBD: New Readme page, smaller and more fancy looking!
 
-# Portainer V2 Templates for Selfhosted Projects/Homelabs
+# Portainer V2.5 Templates for Selfhosted Projects/Homelabs
+21/02/2023: Starting to replace everything to type 3 (stack).
 
 This is a template focused on helping people spin up selfhosted services using Portainer, forked from [Qballjos](https://github.com/Qballjos/portainer_templates).
 
@@ -39,6 +40,7 @@ All templates are already configured to bind mount to various places on your dri
 <summary>21/02/2023</summary>
 <br>
  <ul>
+  <li>Ombi (stack|upd)</li>
   <li>Nodered (stack|upd)</li>
   <li>Tailscale</li>
  </ul>
