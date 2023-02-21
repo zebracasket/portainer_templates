@@ -40,6 +40,7 @@ All templates are already configured to bind mount to various places on your dri
 <summary>21/02/2023</summary>
 <br>
  <ul>
+  <li>Snibox (stack|upd)</li>
   <li>Adguard Home (stack|upd)</li>
   <li>Overseerr (stack|upd)</li>
   <li>Organizr (stack|upd)</li>
