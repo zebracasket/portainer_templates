@@ -197,7 +197,7 @@
     },
     {
       "categories": ["Social"],
-      "description": "https://github.com/pablouser1/ProxiTok", 
+      "description": "Use Tiktok with an alternative frontend, inspired by Nitter.", 
       "logo": "",
       "name": "proxitok",
       "platform": "linux",
