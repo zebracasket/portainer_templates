@@ -40,6 +40,7 @@ All templates are already configured to bind mount to various places on your dri
 <summary>21/02/2023</summary>
 <br>
  <ul>
+  <li>Organizr (stack|upd)</li>
   <li>Ombi (stack|upd)</li>
   <li>Nodered (stack|upd)</li>
   <li>Tailscale</li>
