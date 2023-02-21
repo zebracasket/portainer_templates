@@ -2479,34 +2479,17 @@
     },
     {
       "categories": ["Downloaders", "Video", "Tools"],
-      "description": "Ombi allows you to host your own Plex Request and user management system.",
-      "env": [
-        {
-          "default": "1000",
-          "label": "PUID",
-          "name": "PUID"
-        },
-        {
-          "default": "100",
-          "label": "PGID",
-          "name": "PGID"
-        }
-      ],
-      "image": "linuxserver/ombi:latest",
+      "description": "Ombi allows you to host your own Plex Request and user management system.", 
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/ombi.png",
       "name": "ombi",
       "platform": "linux",
-      "ports": ["3579:3579/tcp"],
-      "restart_policy": "unless-stopped",
+      "repository": {
+	    "stackfile": "Template/Stack/ombi.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
       "title": "Ombi",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/Ombi",
-          "container": "/config"
-        }
-      ]
-    },
+      "type": 3
+    },	  
     {
       "categories": ["Network"],
       "description": "OpenVPN Access Server is a full featured secure network tunneling VPN software solution that integrates OpenVPN server capabilities, enterprise management capabilities, simplified OpenVPN Connect UI, and OpenVPN Client software packages that accommodate Windows, MAC, Linux, Android, and iOS environments.",
