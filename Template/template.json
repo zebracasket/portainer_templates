@@ -4513,6 +4513,19 @@
       "type": 3
     },
     {
+      "categories": ["Network", "VPN"],
+      "description": "Tailscale lets you easily manage access to private resources, quickly SSH into devices on your network, and work securely from anywhere in the world.", 
+      "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/tailscale.jpg",
+      "name": "tailscale",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/tailscale.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Tailscale",
+      "type": 3
+    },
+    {
       "categories": ["Wiki", "Knowledge Base"],
       "description": "Documize Community is an open source, modern, self-hosted, enterprise-grade knowledge management solution.", 
       "logo": "",
