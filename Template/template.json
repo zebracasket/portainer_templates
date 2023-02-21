@@ -3258,22 +3258,16 @@
     },
     {
       "categories": ["Tools"],
-      "description": "Self-hosted snippet manager.",
-      "image": "snowmean/snibox-sqlite:latest",
+      "description": "Self-hosted snippet manager.Label-oriented interface with search. Supports various programming languages, markdown, plain text.", 
       "logo": "https://user-images.githubusercontent.com/312873/35063615-acf68302-fbd8-11e7-91c5-0b3b6f5966c4.png",
       "name": "Snibox",
-      "note": "Label-oriented interface with search. Supports various programming languages, markdown, plain text.",
       "platform": "linux",
-      "ports": ["3010:3000/tcp"],
-      "restart_policy": "unless-stopped",
+      "repository": {
+	    "stackfile": "Template/Stack/snibox.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
       "title": "Snibox",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/Snibox",
-          "container": "/app/db/database"
-        }
-      ]
+      "type": 3
     },
     {
       "categories": ["Downloaders", "Video"],
