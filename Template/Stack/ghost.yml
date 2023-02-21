@@ -1,31 +1,28 @@
-version: '2'
+version: '3.1'
+
 services:
-  mariadb:
-    image: docker.io/bitnami/mariadb:latest
-    volumes:
-      - 'mariadb_data:/bitnami/mariadb'
-    environment:
-      # ALLOW_EMPTY_PASSWORD is recommended only for development.
-      - ALLOW_EMPTY_PASSWORD=yes
-      - MARIADB_USER=bn_ghost
-      - MARIADB_DATABASE=bitnami_ghost
+
   ghost:
-    image: docker.io/bitnami/ghost:latest
+    image: ghost:4-alpine
+    restart: always
     ports:
-      - '2368:2368'
-    volumes:
-      - 'ghost_data:/bitnami/ghost'
-    depends_on:
-      - mariadb
+      - 8080:2368
     environment:
-      # ALLOW_EMPTY_PASSWORD is recommended only for development.
-      - ALLOW_EMPTY_PASSWORD=yes
-      - GHOST_DATABASE_HOST=mariadb
-      - GHOST_DATABASE_PORT_NUMBER=3306
-      - GHOST_DATABASE_USER=bn_ghost
-      - GHOST_DATABASE_NAME=bitnami_ghost
-volumes:
-  mariadb_data:
-    driver: local
-  ghost_data:
-    driver: local
+      # see https://ghost.org/docs/config/#configuration-options
+      database__client: mysql
+      database__connection__host: db
+      database__connection__user: root
+      database__connection__password: example
+      database__connection__database: ghost
+      # this url value is just an example, and is likely wrong for your environment!
+      url: http://localhost:8080
+      # contrary to the default mentioned in the linked documentation, this image defaults to NODE_ENV=production (so development mode needs to be explicitly specified if desired)
+      #NODE_ENV: development
+    volumes:
+      - /portainer/Files/AppData/Config/ghost:/var/lib/ghost/content \
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
