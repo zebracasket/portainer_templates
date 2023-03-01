@@ -477,16 +477,6 @@ Backup:
   - Resilio Sync
   - Sync Thing
 
-Books:
-  - Kavita
-  - Booksonic
-  - COPS
-  - Calibre Web
-  - Gazee
-  - Lazy Librarian
-  - Mylar
-  - Ubooquity
-
 Chat:
   - Murmur
 
