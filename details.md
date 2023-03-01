@@ -63,6 +63,10 @@
 | **Title**          	| **Type** 	| **Description** 	|
 |--------------------	|----------	|-----------------	|
 | Adguard            	|          	|                 	|
-| Pi-Hole Analytics: 	|          	|                 	|
-| Umami.js           	|          	|                 	|
-| Matomo             	|          	|                 	|
+| Pi-Hole           	|          	|                 	|
+
+**Analytics**
+| **Title** 	| **Type** 	| **Description** 	|
+|-----------	|----------	|-----------------	|
+| Umami.js  	|          	|                 	|
+| Matomo    	|          	|                 	|
