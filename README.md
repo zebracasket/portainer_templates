@@ -514,30 +514,6 @@ Dashboard:
   - Flame Dashboard
   - Fenrus
 
-Downloaders:
-  - Aria2 Pro
-  - CouchPotato
-  - Deluge
-  - Jackett
-  - Lidarr
-  - Medusa
-  - Mylar
-  - NZBGet
-  - NZBHydra 2
-  - Ombi
-  - Plex Requests
-  - Prowlarr
-  - qBittorent
-  - Radarr
-  - ruTorrent
-  - SABnzbd
-  - SickHill
-  - SickGear
-  - Sonarr
-  - Transwmission
-  - WebGrab+Plus
-  - YouTubeDL-Material
- 
 Email:
   - ProtonMail Bridge
 
