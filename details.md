@@ -83,7 +83,7 @@
 | Mylar          	|          	|                 	|
 | Ubooquity      	|          	|                 	|
 
-**Books**
+**Dashboards**
 | **Title**       	| **Type** 	| **Description** 	|
 |-----------------	|----------	|-----------------	|
 | DashMachine     	|          	|                 	|
