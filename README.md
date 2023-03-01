@@ -571,26 +571,6 @@ Social:
 VPN:
   - Transmission-OpenVPN
 
-Video:
-  - Bazarr
-  - CouchPotato
-  - Emby
-  - HTPC Manager
-  - Jellyfin
-  - Kodi Headless
-  - Medusa
-  - Minisatip
-  - Ombi
-  - Plex
-  - Plex Requests
-  - Prowlarr
-  - Radarr
-  - SickHill
-  - SickGear
-  - Sonarr
-  - Tvheadend
-  - Frigate NVR
-
 Voice:
   - Murmur
 
