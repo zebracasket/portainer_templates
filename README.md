@@ -497,20 +497,6 @@ Books:
 Chat:
   - Murmur
 
-Cloud:
-  - COPS
-  - Calibre Web
-  - Duplicati
-  - Invoice Ninja
-  - Lychee
-  - Nextcloud
-  - Owncloud
-  - ProjectSend
-  - Pydio
-  - Resilio Sync
-  - SyncThing
-  - Ubooquity
-
 Crypto:
   - Cryptofolio
 
