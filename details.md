@@ -15,3 +15,20 @@
 | Ubooquity     	|          	|                 	|
 |               	|          	|                 	|
 
+**Music apps**
+| **Title**    	| **Type** 	| **Description** 	|
+|--------------	|----------	|-----------------	|
+| Airsonic     	|          	|                 	|
+| Bazarr       	|          	|                 	|
+| Beets        	|          	|                 	|
+| Daapd        	|          	|                 	|
+| DeeMix       	|          	|                 	|
+| Emby         	|          	|                 	|
+| HTPC Manager 	|          	|                 	|
+| Headphones   	|          	|                 	|
+| Jellyfin     	|          	|                 	|
+| Lidarr       	|          	|                 	|
+| Mstream      	|          	|                 	|
+| MusicBrainz  	|          	|                 	|
+| Plex         	|          	|                 	|
+| Navidrome    	|          	|                 	|
