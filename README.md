@@ -33,6 +33,10 @@ All templates are already configured to bind mount to various places on your dri
 * **Books** - Where books are stored/moved to after downloaded.
 * **Comics** - Where comics are stored/moved to after downloaded.
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
+
+Go to [details page](details.md)
+
+
 ## App List
 ## Update:
 
@@ -43,8 +47,6 @@ All templates are already configured to bind mount to various places on your dri
   <li>Mastodon</li>
  </ul>
 </details>
-
-
 
 <details>
 <summary>21/02/2023</summary>
