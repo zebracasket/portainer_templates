@@ -1,5 +1,10 @@
 ---
-title: Details page
-layout: template
-filename: details.md
+Service: Details page
+Type: template
+Description: 
+--- 
+---
+Service: Details page
+Type: template
+Description: 
 --- 
