@@ -469,13 +469,6 @@ AI:
 API:
   - Apprise-API
 
-Adblocking:
-  - Adguard
-  - Pi-Hole
-Analytics: 
-  - Umami.js
-  - Matomo
-
 Authentication: 
   - Authelia
  
