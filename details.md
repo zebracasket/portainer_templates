@@ -58,3 +58,11 @@
 | Transwmission      	|          	|                 	|
 | WebGrab+Plus       	|          	|                 	|
 | YouTubeDL-Material 	|          	|                 	|
+
+**Adblocking**
+| **Title**          	| **Type** 	| **Description** 	|
+|--------------------	|----------	|-----------------	|
+| Adguard            	|          	|                 	|
+| Pi-Hole Analytics: 	|          	|                 	|
+| Umami.js           	|          	|                 	|
+| Matomo             	|          	|                 	|
