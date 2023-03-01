@@ -486,17 +486,6 @@ Crypto:
 DNS:
   - Duck DNS
 
-Dashboard:
-  - DashMachine
-  - Heimdall
-  - Homer
-  - Dashy
-  - Freeboard
-  - Cryptofolio
-  - Nodered
-  - Flame Dashboard
-  - Fenrus
-
 Email:
   - ProtonMail Bridge
 
@@ -522,9 +511,6 @@ Management:
   - Lychee
   - Smokeping
   - Unifi Controller
-
-Messaging:
-  
 
 Messenger:
   - Ferdi Server
