@@ -118,3 +118,17 @@
 | NZBHydra 2          	|          	|                 	|   	|   	|                      	|          	|                 	|
 | NExtcloud           	|          	|                 	|   	|   	|                      	|          	|                 	|
 |                     	|          	|                 	|   	|   	|                      	|          	|                 	|
+
+**Video**
+| **Title**     	| **Type** 	| **Description** 	|   	|   	| **Title**     	| **Type** 	| **Description** 	|
+|---------------	|----------	|-----------------	|---	|---	|---------------	|----------	|-----------------	|
+| Bazarr        	|          	|                 	|   	|   	| Plex          	|          	|                 	|
+| CouchPotato   	|          	|                 	|   	|   	| Plex Requests 	|          	|                 	|
+| Emby          	|          	|                 	|   	|   	| Prowlarr      	|          	|                 	|
+| HTPC Manager  	|          	|                 	|   	|   	| Radarr        	|          	|                 	|
+| Jellyfin      	|          	|                 	|   	|   	| SickHill      	|          	|                 	|
+| Kodi Headless 	|          	|                 	|   	|   	| SickGear      	|          	|                 	|
+| Medusa        	|          	|                 	|   	|   	| Sonarr        	|          	|                 	|
+| Minisatip     	|          	|                 	|   	|   	| Tvheadend     	|          	|                 	|
+| Ombi          	|          	|                 	|   	|   	| Frigate NVR   	|          	|                 	|
+|               	|          	|                 	|   	|   	|               	|          	|                 	|
