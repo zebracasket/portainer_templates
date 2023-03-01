@@ -132,3 +132,18 @@
 | Minisatip     	|          	|                 	|   	|   	| Tvheadend     	|          	|                 	|
 | Ombi          	|          	|                 	|   	|   	| Frigate NVR   	|          	|                 	|
 |               	|          	|                 	|   	|   	|               	|          	|                 	|
+
+**Other**
+| **Title**     	| **Type** 	| **Description** 	|
+|---------------	|----------	|-----------------	|
+| FreshRSS      	|          	|                 	|
+| McMyAdmin 2   	|          	|                 	|
+| Minetest      	|          	|                 	|
+| OScam         	|          	|                 	|
+| Tiny Tiny RSS 	|          	|                 	|
+| Tvheadend     	|          	|                 	|
+| Webtop        	|          	|                 	|
+| Snippet Box   	|          	|                 	|
+| Neko          	|          	|                 	|
+| Ghost         	|          	|                 	|
+| Muximux       	|          	|                 	|
