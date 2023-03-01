@@ -34,30 +34,20 @@
 | Navidrome    	|          	|                 	|
 
 **Downloaders**
-| **Title**          	| **Type** 	| **Description** 	|
-|--------------------	|----------	|-----------------	|
-| Aria2 Pro          	|          	|                 	|
-| CouchPotato        	|          	|                 	|
-| Deluge             	|          	|                 	|
-| Jackett            	|          	|                 	|
-| Lidarr             	|          	|                 	|
-| Medusa             	|          	|                 	|
-| Mylar              	|          	|                 	|
-| NZBGet             	|          	|                 	|
-| NZBHydra 2         	|          	|                 	|
-| Ombi               	|          	|                 	|
-| Plex Requests      	|          	|                 	|
-| Prowlarr           	|          	|                 	|
-| qBittorent         	|          	|                 	|
-| Radarr             	|          	|                 	|
-| ruTorrent          	|          	|                 	|
-| SABnzbd            	|          	|                 	|
-| SickHill           	|          	|                 	|
-| SickGear           	|          	|                 	|
-| Sonarr             	|          	|                 	|
-| Transwmission      	|          	|                 	|
-| WebGrab+Plus       	|          	|                 	|
-| YouTubeDL-Material 	|          	|                 	|
+| **Title**     	| **Type** 	| **Description** 	|   	|   	| **Title**          	| **Type** 	| **Description** 	|
+|---------------	|----------	|-----------------	|---	|---	|--------------------	|----------	|-----------------	|
+| Aria2 Pro     	|          	|                 	|   	|   	| qBittorent         	|          	|                 	|
+| CouchPotato   	|          	|                 	|   	|   	| Radarr             	|          	|                 	|
+| Deluge        	|          	|                 	|   	|   	| ruTorrent          	|          	|                 	|
+| Jackett       	|          	|                 	|   	|   	| SABnzbd            	|          	|                 	|
+| Lidarr        	|          	|                 	|   	|   	| SickHill           	|          	|                 	|
+| Medusa        	|          	|                 	|   	|   	| SickGear           	|          	|                 	|
+| Mylar         	|          	|                 	|   	|   	| Sonarr             	|          	|                 	|
+| NZBGet        	|          	|                 	|   	|   	| Transwmission      	|          	|                 	|
+| NZBHydra 2    	|          	|                 	|   	|   	| WebGrab+Plus       	|          	|                 	|
+| Ombi          	|          	|                 	|   	|   	| YouTubeDL-Material 	|          	|                 	|
+| Plex Requests 	|          	|                 	|   	|   	|                    	|          	|                 	|
+| Prowlarr      	|          	|                 	|   	|   	|                    	|          	|                 	|
 
 **Adblocking**
 | **Title**          	| **Type** 	| **Description** 	|
