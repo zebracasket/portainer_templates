@@ -82,3 +82,16 @@
 | Lazy Librarian 	|          	|                 	|
 | Mylar          	|          	|                 	|
 | Ubooquity      	|          	|                 	|
+
+**Books**
+| **Title**       	| **Type** 	| **Description** 	|
+|-----------------	|----------	|-----------------	|
+| DashMachine     	|          	|                 	|
+| Heimdall        	|          	|                 	|
+| Homer           	|          	|                 	|
+| Dashy           	|          	|                 	|
+| Freeboard       	|          	|                 	|
+| Cryptofolio     	|          	|                 	|
+| Nodered         	|          	|                 	|
+| Flame Dashboard 	|          	|                 	|
+| Fenrus          	|          	|                 	|
