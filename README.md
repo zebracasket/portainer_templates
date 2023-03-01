@@ -1,4 +1,4 @@
-~~Nov21|Dec21|Jan22|Feb22|Mar22|Apr22|May22|Jun22|Jul22|Aug22|Sep22|Oct22|Nov22|Dec22|Jan23~~|Feb23
+~~Nov21|Dec21|Jan22|Feb22|Mar22|Apr22|May22|Jun22|Jul22|Aug22|Sep22|Oct22|Nov22|Dec22|Jan23|Feb23~~|Mar23
 
 **February 2023: Keep on adding stuff!**
 
@@ -35,6 +35,16 @@ All templates are already configured to bind mount to various places on your dri
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
 ## App List
 ## Update:
+
+<details>
+<summary>01/03/2023</summary>
+<br>
+ <ul>
+  <li>Mastodon</li>
+ </ul>
+</details>
+
+
 
 <details>
 <summary>21/02/2023</summary>
