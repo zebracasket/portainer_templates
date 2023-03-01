@@ -572,22 +572,6 @@ Messenger:
   - Quassel IRC
   - TheLounge
   - ZNC
- 
-Music:
-  - Airsonic
-  - Bazarr
-  - Beets
-  - Daapd
-  - DeeMix
-  - Emby
-  - HTPC Manager
-  - Headphones
-  - Jellyfin
-  - Lidarr
-  - Mstream
-  - MusicBrainz
-  - Plex
-  - Navidrome
   
 Network:
   - Uptime Kuma
