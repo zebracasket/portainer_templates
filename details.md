@@ -70,3 +70,15 @@
 |-----------	|----------	|-----------------	|
 | Umami.js  	|          	|                 	|
 | Matomo    	|          	|                 	|
+
+**Books**
+| **Title**      	| **Type** 	| **Description** 	|
+|----------------	|----------	|-----------------	|
+| Kavita         	|          	|                 	|
+| Booksonic      	|          	|                 	|
+| COPS           	|          	|                 	|
+| Calibre Web    	|          	|                 	|
+| Gazee          	|          	|                 	|
+| Lazy Librarian 	|          	|                 	|
+| Mylar          	|          	|                 	|
+| Ubooquity      	|          	|                 	|
