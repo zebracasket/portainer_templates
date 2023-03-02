@@ -274,7 +274,11 @@ Go to [details page](details.md)
 - Fireshare
 </details>
 
-<details>
+
+
+**<details><summary>August 2022</summary>**
+
+ <details>
 <summary>03/08/2022</summary>
 <br>
 - Jump
@@ -286,7 +290,11 @@ Go to [details page](details.md)
 <br>
 - XWiki
 </details>
-
+ 
+ </details>
+ 
+**<details><summary>July 2022</summary>**
+ 
 <details>
 <summary>29/07/2022</summary>
 <br>
@@ -321,13 +329,16 @@ Go to [details page](details.md)
 <summary>01/07/2022</summary>
   - Facebox [implementing config it's a WIP]
 </details>
+</details>
 
-<details>
+**<details><summary>June 2022</summary>**
+
+ <details>
 <summary>01/06/2022</summary>
   - Eufy Security WS
 </details>
-
-
+ </details>
+ 
 **<details><summary>May 2022</summary>**
 
  
