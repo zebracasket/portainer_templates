@@ -551,17 +551,6 @@ VPN:
 Voice:
   - Murmur
 
-Web:
-  - Gazee
-  - Heimdall
-  - Invoice Ninja
-  - Let's Encrypt / SWAG
-  - Lychee
-  - Muximux
-  - Nextcloud
-  - Nginx
-  - Owncloud
-
 Wiki:
   - Bookstack
   - Wikijs
