@@ -33,6 +33,17 @@
 | Plex         	|          	|                 	|
 | Navidrome    	|          	|                 	|
 
+**Productivity**
+| **Title**         	| **Type** 	| **Description** 	|
+|-------------------	|----------	|-----------------	|
+| Codiad            	|          	|                 	|
+| Duplicati         	|          	|                 	|
+| Invoice Ninja     	|          	|                 	|
+| Nextcloud         	|          	|                 	|
+| Owncloud          	|          	|                 	|
+| PrejectSend       	|          	|                 	|
+| ProtonMail Bridge 	|          	|                 	|
+| Trilium Notes     	|          	|                 	|
 **Downloaders**
 | **Title**     	| **Type** 	| **Description** 	|   	|   	| **Title**          	| **Type** 	| **Description** 	|
 |---------------	|----------	|-----------------	|---	|---	|--------------------	|----------	|-----------------	|
