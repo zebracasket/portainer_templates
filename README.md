@@ -498,15 +498,6 @@ Management:
   - Smokeping
   - Unifi Controller
  
-Photos:
-  - Chevereto
-  - Emby
-  - Jellyfin
-  - Lychee
-  - PhotoShow
-  - Piwigo
-  - Plex
-
 Presentation:
   - Reveal.js
 
