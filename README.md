@@ -497,13 +497,6 @@ Management:
   - Lychee
   - Smokeping
   - Unifi Controller
-
-Network:
-  - Uptime Kuma
-  - Netbox
-  - Change Detection
-  - Statping
-  - Pi.alert
  
 Photos:
   - Chevereto
