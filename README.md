@@ -364,7 +364,11 @@ Go to [details page](details.md)
   - Kavita
 </details>
 
-<details>
+
+
+**<details><summary>January 2021</summary>**
+ 
+ <details>
 <summary>28/01/2022</summary>
   - Pi.alert
 </details>
@@ -373,25 +377,10 @@ Go to [details page](details.md)
 <summary>11/01/2022</summary>
   - Navidrome
 </details>
-
-<details>
-<summary>12/12/2021</summary>
-  - Firefox
-</details>
-
-<details>
-<summary>07/12/2021</summary>
-  - Broadlink Manager
-  - Homebridge
-  - NUTS
-</details>
-
-<details>
-<summary>06/12/2021</summary>
-  - Dozzle
 </details>
 
 **<details><summary>December 2021</summary>**
+ 
  | Monday            	| Tuesday                                          	| Wednesday 	| Thursday 	| Friday 	| Saturday 	| Sunday              	|
 |-------------------	|--------------------------------------------------	|-----------	|----------	|--------	|----------	|---------------------	|
 |                   	|                                                  	| 1         	| 2        	| 3      	| 4        	| 5                   	|
