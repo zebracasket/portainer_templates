@@ -406,7 +406,8 @@ Go to [details page](details.md)
 ## 
 </details>
 
-
+**<details><summary>App Categories</summary>**
+ 
 <details><summary>Other:</summary>
 <p>
   - Adguard
@@ -487,6 +488,8 @@ Wiki:
   - Wikijs
   - TiddlyWiki
 
+ </details>
+ 
 ## Authors
 * **NASHosted** - *Current Work* - [NASHOSTED](https://github.com/nashosted)
 * **SelfhostedPro** - *Current Work* - [SelfhostedPro](https://github.com/SelfhostedPro)
