@@ -199,3 +199,12 @@
 | Quassel IRC  	|          	|                 	|
 | TheLounge    	|          	|                 	|
 | ZNC          	|          	|                 	|
+
+**Network**
+| **Title**        	| **Type** 	| **Description** 	|
+|------------------	|----------	|-----------------	|
+| Uptime Kuma      	|          	|                 	|
+| Netbox           	|          	|                 	|
+| Change Detection 	|          	|                 	|
+| Statping         	|          	|                 	|
+| Pi.alert         	|          	|                 	|
