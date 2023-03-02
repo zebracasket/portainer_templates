@@ -537,16 +537,6 @@ Photos:
 Presentation:
   - Reveal.js
 
-Productivity:
-  - Codiad
-  - Duplicati
-  - Invoice Ninja
-  - Nextcloud
-  - Owncloud
-  - PrejectSend
-  - ProtonMail Bridge
-  - Trilium Notes
-
 Proxy:
   - Nginx
   - Ngin Proxy Manager
