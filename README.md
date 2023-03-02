@@ -392,6 +392,8 @@ Go to [details page](details.md)
 </details>
 
 **November 2021**
+<details><summary>November 2021</summary>
+ 
 | Monday                                                        	| Tuesday                     	| Wednesday 	| Thursday                                                                              	| Friday                                                                                                                                                       	| Saturday 	| Sunday 	|
 |---------------------------------------------------------------	|-----------------------------	|-----------	|---------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------------------------------------------	|----------	|--------	|
 | 1                                                             	| 2                           	| 3         	| **4** <br> Uptime-Kuma - Dashy - WebTop [ubuntu-kde] - Littlelink-server by Techno Ti 	| **5** <br> Umami.is - Matomo - N.eko Rooms - Changedetection.io - Ghost - Monica - Netbox - Freeboard - Nodered - Reveal.js - Statping - Frigate NVR - Ferdi 	| 6        	| 7      	|
@@ -399,6 +401,7 @@ Go to [details page](details.md)
 | 15                                                            	| **16** <br> Flame Dashboard 	| 17        	| 18                                                                                    	| 19                                                                                                                                                           	| 20       	| 21     	|
 | 22                                                            	| 23                          	| 24        	| 25                                                                                    	| 26                                                                                                                                                           	| 27       	| 28     	|
 | 29                                                            	| 30                          	|           	|                                                                                       	|                                                                                                                                                              	|          	|        	|
+ </details>
  
 <details>
 <summary>16/11/2021</summary>
