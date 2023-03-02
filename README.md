@@ -327,6 +327,10 @@ Go to [details page](details.md)
   - Eufy Security WS
 </details>
 
+
+**<details><summary>May 2022</summary>**
+
+ 
 <details>
 <summary>31/05/2022</summary>
   *Comment: I tried integrating Servas and wallabag to be consisent with the /portainer/Files setup, but unfortunately I couldn't...at the time
@@ -353,20 +357,26 @@ Go to [details page](details.md)
   - Baserow
   - GoAccess for Nginx Proxy Manager Logs
 </details>
+</details>
 
+
+**<details><summary>March 2022</summary>**
+ 
 <details>
 <summary>15/03/2022</summary>
   - Fenrus
 </details>
+ </details>
+ 
+**<details><summary>February 2022</summary>**
 
-<details>
+ <details>
 <summary>17/02/2022</summary>
   - Kavita
 </details>
+</details>
 
-
-
-**<details><summary>January 2021</summary>**
+**<details><summary>January 2022</summary>**
  
  <details>
 <summary>28/01/2022</summary>
