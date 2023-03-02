@@ -391,6 +391,15 @@ Go to [details page](details.md)
   - Dozzle
 </details>
 
+**November 2021**
+| Monday                                                        	| Tuesday                     	| Wednesday 	| Thursday                                                                              	| Friday                                                                                                                                                       	| Saturday 	| Sunday 	|
+|---------------------------------------------------------------	|-----------------------------	|-----------	|---------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------------------------------------------	|----------	|--------	|
+| 1                                                             	| 2                           	| 3         	| **4** <br> Uptime-Kuma - Dashy - WebTop [ubuntu-kde] - Littlelink-server by Techno Ti 	| **5** <br> Umami.is - Matomo - N.eko Rooms - Changedetection.io - Ghost - Monica - Netbox - Freeboard - Nodered - Reveal.js - Statping - Frigate NVR - Ferdi 	| 6        	| 7      	|
+| **8** <br> Aria2 Pro [Downloader] - Apprise-API - Cryptofolio 	| 9                           	| 10        	| 11                                                                                    	| **12** <br> Snippet Box - Photoprism - Teleport                                                                                                              	| 13       	| 14     	|
+| 15                                                            	| **16** <br> Flame Dashboard 	| 17        	| 18                                                                                    	| 19                                                                                                                                                           	| 20       	| 21     	|
+| 22                                                            	| 23                          	| 24        	| 25                                                                                    	| 26                                                                                                                                                           	| 27       	| 28     	|
+| 29                                                            	| 30                          	|           	|                                                                                       	|                                                                                                                                                              	|          	|        	|
+
 <details>
 <summary>16/11/2021</summary>
   - Flame Dashboard
