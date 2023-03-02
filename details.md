@@ -177,6 +177,7 @@
 |-------------------	|----------	|-----------------	|
 | Broadlink Manager 	|          	|                 	|
 | Homebridge        	|          	|                 	|
+| Domoticz            |           |                   |
 
 **AI**
 | **Title**   	| **Type** 	| **Description** 	|
@@ -190,3 +191,11 @@
 | Duplicati    	|          	|                 	|
 | Resilio Sync 	|          	|                 	|
 | Sync Thing   	|          	|                 	|
+
+**Messengers**
+| **Title**    	| **Type** 	| **Description** 	|
+|--------------	|----------	|-----------------	|
+| Ferdi Server 	|          	|                 	|
+| Quassel IRC  	|          	|                 	|
+| TheLounge    	|          	|                 	|
+| ZNC          	|          	|                 	|
