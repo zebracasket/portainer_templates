@@ -458,25 +458,12 @@ Go to [details page](details.md)
 Browsers:
   - Firefox
 
-Smart Home:
-  - Broadlink Manager
-  - Homebridge
-  
-AI:
-  - Photoprism
-  - Frigate NVR
-
 API:
   - Apprise-API
 
 Authentication: 
   - Authelia
  
-Backup: 
-  - Duplicati
-  - Resilio Sync
-  - Sync Thing
-
 Chat:
   - Murmur
 
@@ -507,17 +494,10 @@ Maintenance:
   - Watchtower
 
 Management:
-  - Domoticz
   - Lychee
   - Smokeping
   - Unifi Controller
 
-Messenger:
-  - Ferdi Server
-  - Quassel IRC
-  - TheLounge
-  - ZNC
-  
 Network:
   - Uptime Kuma
   - Netbox
