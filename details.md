@@ -208,3 +208,14 @@
 | Change Detection 	|          	|                 	|
 | Statping         	|          	|                 	|
 | Pi.alert         	|          	|                 	|
+
+**Photos**
+| **Title** 	| **Type** 	| **Description** 	|
+|-----------	|----------	|-----------------	|
+| Chevereto 	|          	|                 	|
+| Emby      	|          	|                 	|
+| Jellyfin  	|          	|                 	|
+| Lychee    	|          	|                 	|
+| PhotoShow 	|          	|                 	|
+| Piwigo    	|          	|                 	|
+| Plex      	|          	|                 	|
