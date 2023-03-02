@@ -158,3 +158,16 @@
 | Neko          	|          	|                 	|
 | Ghost         	|          	|                 	|
 | Muximux       	|          	|                 	|
+
+**Web**
+| **Title**            	| **Type** 	| **Description** 	|
+|----------------------	|----------	|-----------------	|
+| Gazee                	|          	|                 	|
+| Heimdall             	|          	|                 	|
+| Invoice Ninja        	|          	|                 	|
+| Let's Encrypt / SWAG 	|          	|                 	|
+| Lychee               	|          	|                 	|
+| Muximux              	|          	|                 	|
+| Nextcloud            	|          	|                 	|
+| Nginx                	|          	|                 	|
+| Owncloud             	|          	|                 	|
