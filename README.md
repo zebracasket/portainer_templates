@@ -4,7 +4,7 @@
 
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="bol1JWG9V" data-color="#5F7FFF" data-emoji=""  data-font="Poppins" data-text="Buy me coffee or baby wipes!" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/[gbraad](https://www.buymeacoffee.com/bol1JWG9V))
+[!["Buy Me A Coffee or baby wipes!"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/[bol1JWG9V](https://www.buymeacoffee.com/bol1JWG9V))
 
 TBD: New Readme page, smaller and more fancy looking!
 
