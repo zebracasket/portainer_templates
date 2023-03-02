@@ -171,3 +171,22 @@
 | Nextcloud            	|          	|                 	|
 | Nginx                	|          	|                 	|
 | Owncloud             	|          	|                 	|
+
+**Smart Home**
+| **Title**         	| **Type** 	| **Description** 	|
+|-------------------	|----------	|-----------------	|
+| Broadlink Manager 	|          	|                 	|
+| Homebridge        	|          	|                 	|
+
+**AI**
+| **Title**   	| **Type** 	| **Description** 	|
+|-------------	|----------	|-----------------	|
+| Photoprism  	|          	|                 	|
+| Frigate NVR 	|          	|                 	|
+
+**Backup**
+| **Title**    	| **Type** 	| **Description** 	|
+|--------------	|----------	|-----------------	|
+| Duplicati    	|          	|                 	|
+| Resilio Sync 	|          	|                 	|
+| Sync Thing   	|          	|                 	|
