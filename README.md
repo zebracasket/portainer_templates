@@ -391,6 +391,16 @@ Go to [details page](details.md)
   - Dozzle
 </details>
 
+**<details><summary>December 2021</summary>**
+ | Monday            	| Tuesday                                          	| Wednesday 	| Thursday 	| Friday 	| Saturday 	| Sunday              	|
+|-------------------	|--------------------------------------------------	|-----------	|----------	|--------	|----------	|---------------------	|
+|                   	|                                                  	| 1         	| 2        	| 3      	| 4        	| 5                   	|
+| **6** <br> Dozzle 	| **7** <br> Broadlink Manager - Homebridge - NUTS 	| 8         	| 9        	| 10     	| 11       	| **12** <br> Firefox 	|
+| 13                	| 14                                               	| 15        	| 16       	| 17     	| 18       	| 19                  	|
+| 20                	| 21                                               	| 22        	| 23       	| 24     	| 25       	| 26                  	|
+| 27                	| 28                                               	| 29        	| 30       	| 31     	|          	|                     	|
+ </details>
+
 **<details><summary>November 2021</summary>**
  
 | Monday                                                        	| Tuesday                     	| Wednesday 	| Thursday                                                                              	| Friday                                                                                                                                                       	| Saturday 	| Sunday 	|
