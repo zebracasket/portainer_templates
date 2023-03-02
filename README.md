@@ -402,49 +402,6 @@ Go to [details page](details.md)
 | 29                                                            	| 30                          	|           	|                                                                                       	|                                                                                                                                                              	|          	|        	|
  </details>
  
-<details>
-<summary>16/11/2021</summary>
-  - Flame Dashboard
-</details>
-
-<details>
-<summary>12/11/2021</summary>
-  - Snippet Box
-  - Photoprism
-  - Teleport
-</details>
-
-<details>
-<summary>08/11/2021</summary>
-  - Aria2 Pro [Downloader]
-  - Apprise-API
-  - Cryptofolio
-</details>
-
-<details>
-<summary>05/11/2021</summary>
-  - Umami.is
-  - Matomo
-  - N.eko Rooms
-  - Changedetection.io
-  - Ghost
-  - Monica
-  - Netbox
-  - Freeboard
-  - Nodered
-  - Reveal.js
-  - Statping
-  - Frigate NVR
-  - Ferdi
-</details>
-
-<details>
-<summary>04/11/2021</summary>
-  - Uptime-Kuma
-  - Dashy
-  - WebTop [ubuntu-kde]
-  - Littlelink-server by Techno Tim
-<br></br>
 <br></br>
 
 ## 
