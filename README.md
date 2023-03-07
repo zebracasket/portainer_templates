@@ -246,7 +246,6 @@ Go to [details page](details.md)
 </details>
  </details>
  
-
 **<details><summary>November 2022</summary>**
 
  <details>
@@ -284,11 +283,7 @@ Go to [details page](details.md)
 </details>
  </details>
   
-<details>
-<summary>22/09/2022</summary>
-<br>
-- Fireshare
-</details>
+
 
 **<details><summary>September 2022</summary>**
  
@@ -304,6 +299,13 @@ Go to [details page](details.md)
 - I hate money
 </details> 
  </details>
+
+<details>
+<summary>22/09/2022</summary>
+<br>
+- Fireshare
+</details>
+</details>
 
 **<details><summary>August 2022</summary>**
 
