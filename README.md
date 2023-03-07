@@ -296,7 +296,6 @@ Go to [details page](details.md)
 <br>
 - I hate money
 </details> 
- </details>
 
 <details>
 <summary>22/09/2022</summary>
