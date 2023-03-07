@@ -283,8 +283,6 @@ Go to [details page](details.md)
 </details>
  </details>
   
-
-
 **<details><summary>September 2022</summary>**
  
 <details>
@@ -305,7 +303,7 @@ Go to [details page](details.md)
 <br>
 - Fireshare
 </details>
-</details>
+ </details>
 
 **<details><summary>August 2022</summary>**
 
