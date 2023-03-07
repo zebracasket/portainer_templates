@@ -44,6 +44,14 @@ Go to [details page](details.md)
 ## Update:
 
 <details>
+<summary>07/03/2023</summary>
+<br>
+ <ul>
+  <li>Gokapi</li>
+ </ul>
+</details>
+
+<details>
 <summary>01/03/2023</summary>
 <br>
  <ul>
