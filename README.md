@@ -59,6 +59,10 @@ Go to [details page](details.md)
  </ul>
 </details>
 
+**<details><summary>February 2023</summary>**
+
+ 
+
 <details>
 <summary>21/02/2023</summary>
 <br>
@@ -125,6 +129,9 @@ Go to [details page](details.md)
   <li>AppSmith</li> 
  </ul>
 </details>
+ </details>
+ 
+**<details><summary>January 2023</summary>**
 
 <details>
 <summary>27/01/2023</summary>
@@ -190,8 +197,10 @@ Go to [details page](details.md)
   <li>Signal proxy</li>
 </ul> 
 </details>
-
-
+ </details>
+ 
+**<details><summary>December 2022</summary>**
+ 
 <details>
 <summary>25/12/2022</summary>
 <br>
@@ -235,8 +244,12 @@ Go to [details page](details.md)
 - Silverstripe CMS
 - FileStash
 </details>
+ </details>
+ 
 
-<details>
+**<details><summary>November 2022</summary>**
+
+ <details>
 <summary>30/11/2022</summary>
 <br>
 - Readarr
@@ -260,13 +273,25 @@ Go to [details page](details.md)
 <br>
 - Lazytainer
 </details>
+ </details>
+
+**<details><summary>October 2022</summary>**
 
 <details>
 <summary>14/10/2022</summary>
 <br>
 - iperf
 </details>
+ </details>
+  
+<details>
+<summary>22/09/2022</summary>
+<br>
+- Fireshare
+</details>
 
+**<details><summary>September 2022</summary>**
+ 
 <details>
 <summary>27/09/2022</summary>
 <br>
@@ -277,15 +302,8 @@ Go to [details page](details.md)
 <summary>26/09/2022</summary>
 <br>
 - I hate money
-</details>
-
-<details>
-<summary>22/09/2022</summary>
-<br>
-- Fireshare
-</details>
-
-
+</details> 
+ </details>
 
 **<details><summary>August 2022</summary>**
 
@@ -301,7 +319,6 @@ Go to [details page](details.md)
 <br>
 - XWiki
 </details>
- 
  </details>
  
 **<details><summary>July 2022</summary>**
@@ -352,11 +369,6 @@ Go to [details page](details.md)
  
 **<details><summary>May 2022</summary>**
 
- 
-
-
-**<details><summary>May 2022</summary>**
-
 <details>
 <summary>31/05/2022</summary>
   *Comment: I tried integrating Servas and wallabag to be consisent with the /portainer/Files setup, but unfortunately I couldn't...at the time
@@ -382,7 +394,6 @@ Go to [details page](details.md)
 <summary>04/05/2022</summary>
   - Baserow
   - GoAccess for Nginx Proxy Manager Logs
-</details>
 </details>
 </details>
 
