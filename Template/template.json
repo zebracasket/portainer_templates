@@ -4441,6 +4441,19 @@
       "type": 3
     },
     {
+      "categories": ["Monitoring"],
+      "description": "Glances is an open-source system cross-platform monitoring tool. It allows real-time monitoring of various aspects of your system such as CPU, memory, disk, network usage etc.", 
+      "logo": "https://raw.githubusercontent.com/nicolargo/glances/develop/docs/_static/glances-responsive-webdesign.png",
+      "name": "glances",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/glances.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Glances",
+      "type": 3
+    },	  
+    {
       "categories": ["Network", "VPN"],
       "description": "Tailscale lets you easily manage access to private resources, quickly SSH into devices on your network, and work securely from anywhere in the world.", 
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/tailscale.jpg",
