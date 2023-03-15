@@ -44,6 +44,14 @@ Go to [details page](details.md)
 ## Update:
 
 <details>
+<summary>15/03/2023</summary>
+<br>
+ <ul>
+  <li>Glances</li>
+ </ul>
+</details>
+
+<details>
 <summary>07/03/2023</summary>
 <br>
  <ul>
