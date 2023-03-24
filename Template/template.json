@@ -4440,6 +4440,19 @@
       "title": "Appwrite",
       "type": 3
     },
+        {
+      "categories": ["Download", "Multimedia"],
+      "description": "Autobrr is the modern download automation tool for torrents.", 
+      "logo": "https://autobrr.com/img/logo.png",
+      "name": "autobrr",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/autobrr.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Autobrr",
+      "type": 3
+    },	  
     {
       "categories": ["Monitoring"],
       "description": "Glances is an open-source system cross-platform monitoring tool. It allows real-time monitoring of various aspects of your system such as CPU, memory, disk, network usage etc.", 
