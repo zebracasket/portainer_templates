@@ -48,6 +48,7 @@ Go to [details page](details.md)
 <br>
  <ul>
   <li>Autobrr</li>
+  <li>Baikal</li>
  </ul>
 </details>
 
