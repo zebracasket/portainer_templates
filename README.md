@@ -44,6 +44,15 @@ Go to [details page](details.md)
 ## Update:
 
 <details>
+<summary>24/03/2023</summary>
+<br>
+ <ul>
+  <li>Autobrr</li>
+ </ul>
+</details>
+
+
+<details>
 <summary>15/03/2023</summary>
 <br>
  <ul>
