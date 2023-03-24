@@ -4440,6 +4440,19 @@
       "title": "Appwrite",
       "type": 3
     },
+    {
+      "categories": ["Calendar", "Productivity"],
+      "description": "Baïkal is a lightweight CalDAV+CardDAV server. It offers an extensive web interface with easy management of users, address books and calendars.", 
+      "logo": "https://sabre.io/img/logo.png",
+      "name": "baikal",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/baikal.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Baikal",
+      "type": 3
+    },	  
         {
       "categories": ["Download", "Multimedia"],
       "description": "Autobrr is the modern download automation tool for torrents.", 
