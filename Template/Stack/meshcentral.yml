@@ -12,7 +12,7 @@ services:
         restart: always
         container_name: meshcentral
         depends_on:
-            - 'mongodb'
+            - 'meshcentral-mongodb'
         image: typhonragewind/meshcentral
         ports:
             - 8086:443
