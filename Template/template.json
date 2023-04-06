@@ -4142,6 +4142,19 @@
       "type": 3
     }, 
     {
+      "categories": ["Tools", "Multimedia"]
+      "description": "WatchRARr is a Python application designed to recursively watch a directory for RAR files and extract them upon creation.", 
+      "logo": "",
+      "name": "watchrarr",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/watchrarr.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Watchrarr",
+      "type": 3
+    }, 
+    {
       "categories": ["Cloud"],
       "description": "Gokapi is a lightweight server to share files, which expire after a set amount of downloads or days. It is similar to the discontinued Firefox Send, with the difference that only the admin is allowed to upload files", 
       "logo": "https://noted.lol/content/images/2023/02/gokapi-self-hosted-main.png",
