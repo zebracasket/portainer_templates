@@ -4154,19 +4154,7 @@
       "title": "Apprise-API",
       "type": 3
     }, 
-    {
-      "categories": ["Tools", "Multimedia"]
-      "description": "This application runs as a daemon on your download host. It checks for completed downloads and extracts them so Lidarr, Radarr, Readarr, and Sonarr may import them.", 
-      "logo": "https://raw.githubusercontent.com/wiki/Unpackerr/unpackerr/images/unpackerr-logo-text.png",
-      "name": "unpackerr",
-      "platform": "linux",
-      "repository": {
-	    "stackfile": "Template/Stack/unpackerr.yml",
-	    "url": "https://github.com/xneo1/portainer_templates"
-      },  
-      "title": "Unpackerr",
-      "type": 3
-    },
+
     {
       "categories": ["Tools", "Multimedia"]
       "description": "WatchRARr is a Python application designed to recursively watch a directory for RAR files and extract them upon creation.", 
