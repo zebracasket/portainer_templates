@@ -44,6 +44,14 @@ Go to [details page](details.md)
 ## Update:
 
 <details>
+<summary>07/04/2023</summary>
+<br>
+ <ul>
+  <li>Flood UI with QTorrent</li>
+ </ul>
+</details>
+
+<details>
 <summary>06/04/2023</summary>
 <br>
  <ul>
