@@ -44,6 +44,15 @@ Go to [details page](details.md)
 ## Update:
 
 <details>
+<summary>19/05/2023</summary>
+<br>
+ <ul>
+  <li>Subsonic</li>
+ </ul>
+</details>
+
+
+<details>
 <summary>09/05/2023</summary>
 <br>
  <ul>
