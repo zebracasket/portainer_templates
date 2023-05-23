@@ -47,6 +47,7 @@ Go to [details page](details.md)
 <summary>23/05/2023</summary>
 <br>
  <ul>
+  <li>Funkwhale</li>
   <li>Airsonic</li>
  </ul>
 </details>
