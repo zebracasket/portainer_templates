@@ -4155,6 +4155,21 @@
       "type": 3
     }, 
     {
+      "categories": ["Audio", "Multimedia"],
+      "description": "Airsonic is a free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work.", 
+      "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-banner.png",
+      "name": "airsonic",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/airsonic.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Airsonic",
+      "type": 3
+    },   
+	  
+	  
+    {
       "categories": ["Cloud"],
       "description": "Gokapi is a lightweight server to share files, which expire after a set amount of downloads or days. It is similar to the discontinued Firefox Send, with the difference that only the admin is allowed to upload files", 
       "logo": "https://noted.lol/content/images/2023/02/gokapi-self-hosted-main.png",
