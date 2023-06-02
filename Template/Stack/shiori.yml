@@ -8,7 +8,6 @@ services:
       - TZ=Europe/Athens
       - PUID=1000
       - PGID=1000
-      - SHIORI_DIR=/data
     ports:
       - 8580:8080
     restart: unless-stopped
