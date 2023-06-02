@@ -3076,24 +3076,6 @@
       ]
     },
     {
-      "categories": ["Tools"],
-      "description": "Shiori is a simple bookmarks manager written in Go language. Intended as a simple clone of Pocket. You can use it as command line application or as web application.",
-      "image": "radhifadlillah/shiori:latest",
-      "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/shiori-icon.png",
-      "name": "shiori",
-      "platform": "linux",
-      "ports": ["8080/tcp"],
-      "restart_policy": "unless-stopped",
-      "title": "Shiori",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/Shiori",
-          "container": "/srv/shiori"
-        }
-      ]
-    },
-    {
       "categories": ["Downloaders", "Video"],
       "description": "Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
       "env": [
@@ -4100,7 +4082,7 @@
     }, 
     {
       "categories": ["Tools"],
-      "description": "Shiori is a simple bookmarks manager written in the Go language. Intended as a simple clone of Pocket.", 
+      "description": "Shiori is a simple bookmarks manager written in the Go language. Intended as a simple clone of Pocket.You can use it as command line application or as web application.", 
       "logo": "https://raw.githubusercontent.com/go-shiori/shiori/master/docs/readme/cover.png",
       "name": "shiori",
       "platform": "linux",
