@@ -13,6 +13,4 @@ services:
       - 8580:8080
     restart: unless-stopped
     volumes:
-      - data:/data
-volumes:
-  data:
+      - /portainer/Files/AppData/Config/shiori:/data
