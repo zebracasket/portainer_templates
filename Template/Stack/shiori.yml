@@ -5,7 +5,7 @@ services:
     image: ghcr.io/go-shiori/shiori
     container_name: shiori-default
     environment:
-      - TZ=Euope/Athens
+      - TZ=Europe/Athens
       - PUID=1000
       - PGID=1000
       - SHIORI_DIR=/data
