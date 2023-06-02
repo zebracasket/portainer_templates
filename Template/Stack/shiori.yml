@@ -1,0 +1,18 @@
+---
+version: "3.1"
+services:
+  shiori:
+    image: nicholaswilde/shiori:latest
+    container_name: shiori-default
+    environment:
+      - TZ=Euope/Athens
+      - PUID=1000
+      - PGID=1000
+      - SHIORI_DIR=/data
+    ports:
+      - 8580:8080
+    restart: unless-stopped
+    volumes:
+      - data:/data
+volumes:
+  data:
