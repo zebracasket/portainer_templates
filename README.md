@@ -5,8 +5,6 @@
 
 <a href="https://www.buymeacoffee.com/bol1JWG9V" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-TBD: New Readme page, smaller and more fancy looking!
-
 # Portainer V2.5 Templates for Selfhosted Projects/Homelabs
 21/02/2023: Starting to replace everything to type 3 (stack).
 
