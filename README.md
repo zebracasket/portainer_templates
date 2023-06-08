@@ -97,7 +97,6 @@ Go to [details page](details.md)
 </details>
  
 **<details><summary>March 2023</summary>**
-<details>
  
 <details>
 <summary>24/03/2023</summary>
@@ -107,7 +106,6 @@ Go to [details page](details.md)
   <li>Baikal</li>
  </ul>
 </details>
-
 
 <details>
 <summary>15/03/2023</summary>
