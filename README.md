@@ -79,9 +79,6 @@ Go to [details page](details.md)
 </details>
 
 
-**<details><summary>April 2023</summary>**
-<details>
-
 <details>
 <summary>07/04/2023</summary>
 <br>
@@ -97,7 +94,6 @@ Go to [details page](details.md)
   <li>WatchRARr</li>
   <li>Unpackerr</li>
  </ul>
-</details>
 </details>
  
 **<details><summary>March 2023</summary>**
