@@ -101,7 +101,7 @@ Go to [details page](details.md)
 </details>
  
 **<details><summary>March 2023</summary>**
- 
+<details>
  
 <details>
 <summary>24/03/2023</summary>
@@ -136,7 +136,7 @@ Go to [details page](details.md)
   <li>Mastodon</li>
  </ul>
 </details>
-</details>
+ </details>
  
 **<details><summary>February 2023</summary>**
  
