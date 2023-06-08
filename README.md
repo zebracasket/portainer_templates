@@ -44,6 +44,14 @@ Go to [details page](details.md)
 ## Update:
 
 <details>
+<summary>08/06/2023</summary>
+<br>
+ <ul>
+  <li>Ansible-semaphore</li>
+ </ul>
+</details>
+
+<details>
 <summary>02/06/2023</summary>
 <br>
  <ul>
