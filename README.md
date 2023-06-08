@@ -135,7 +135,7 @@ Go to [details page](details.md)
  </details>
  
 **<details><summary>February 2023</summary>**
- 
+<details>
 
 <details>
 <summary>21/02/2023</summary>
