@@ -133,7 +133,6 @@ Go to [details page](details.md)
 </details>
 
 **<details><summary>February 2023</summary>**
-
  
 
 <details>
@@ -188,7 +187,7 @@ Go to [details page](details.md)
   <li>Tooljet</li>
  </ul>
 </details>
-
+</details>
 
 <details>
 <summary>01/02/2023</summary>
