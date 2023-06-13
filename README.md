@@ -42,6 +42,14 @@ Go to [details page](details.md)
 ## Update:
 
 <details>
+<summary>13/06/2023</summary>
+<br>
+ <ul>
+  <li>Linkstack</li>
+ </ul>
+</details>
+
+<details>
 <summary>08/06/2023</summary>
 <br>
  <ul>
