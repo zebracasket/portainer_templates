@@ -4094,6 +4094,19 @@
       "type": 3
     }, 
     {
+      "categories": ["Tools"],
+      "description": "Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility.", 
+      "logo": "https://grocy.info/img/grocy_logo.svg",
+      "name": "grocy",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/grocy.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Grocy",
+      "type": 3
+    }, 
+    {
       "categories": ["Devops"],
       "description": "Modern UI for Ansible", 
       "logo": "https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_60,h_60/https://dashboard.snapcraft.io/site_media/appmedia/2020/11/Screenshot_2020-11-21_at_02.05.22.png",
