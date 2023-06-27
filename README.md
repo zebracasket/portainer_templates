@@ -40,6 +40,13 @@ Go to [details page](details.md)
 
 ## App List
 ## Update:
+<details>
+<summary>27/06/2023</summary>
+<br>
+ <ul>
+  <li>Grocy</li>
+ </ul>
+</details>
 
 <details>
 <summary>13/06/2023</summary>
