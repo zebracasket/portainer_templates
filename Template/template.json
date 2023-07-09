@@ -4074,7 +4074,21 @@
       },  
       "title": "Apprise-API",
       "type": 3
+    },
+    {
+      "categories": ["offline"],
+      "description": "Internet. Offline.Store any website on your mobile phone or computer, easily.", 
+      "logo": "https://www.kiwix.org/wp-content/uploads/kiwix-logo-995x200-1.png",
+      "name": "kiwix",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/kiwix.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Kiwix",
+      "type": 3
     }, 
+
     {
       "categories": ["Tools"],
       "description": "The recipe manager that allows you to manage your ever growing collection of digital recipes.", 
