@@ -1,39 +1,29 @@
+---
 version: "3"
 services:
   db_recipes:
-    restart: always
-    image: postgres:11-alpine
-    volumes:
-      - ./postgresql:/var/lib/postgresql/data
-    env_file:
-      - ./.env
-
-  web_recipes:
-    restart: always
+    image: postgres
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+  
+  recipes:
     image: vabene1111/recipes
-    env_file:
-      - ./.env
+    container_name: recipes
+    ports:
+      - 82:8080
     volumes:
-      - staticfiles:/opt/recipes/staticfiles
-      - nginx_config:/opt/recipes/nginx/conf.d
-      - ./mediafiles:/opt/recipes/mediafiles
+      - /portainer/Files/AppData/Config/tandoor/staticfiles:/opt/recipes/staticfiles
+      - /portainer/Files/AppData/Config/tandoor/mediafiles:/opt/recipes/mediafiles
+    environment:
+      - SECRET_KEY=YOUR_SECRET_KEY
+      - DB_ENGINE=django.db.backends.postgresql
+      - POSTGRES_HOST=db_recipes
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    restart: unless-stopped
     depends_on:
       - db_recipes
-
-  nginx_recipes:
-    image: nginx:mainline-alpine
-    restart: always
-    ports:
-      - 3280:80
-    env_file:
-      - ./.env
-    depends_on:
-      - web_recipes
-    volumes:
-      - nginx_config:/etc/nginx/conf.d:ro
-      - staticfiles:/static:ro
-      - ./mediafiles:/media:ro
-
-volumes:
-  nginx_config:
-  staticfiles:
