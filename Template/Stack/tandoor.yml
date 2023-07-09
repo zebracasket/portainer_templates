@@ -10,7 +10,7 @@ services:
   
   recipes:
     image: vabene1111/recipes
-    container_name: recipes
+    container_name: tandoor
     ports:
       - 82:8080
     volumes:
