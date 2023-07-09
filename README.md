@@ -40,6 +40,15 @@ Go to [details page](details.md)
 
 ## App List
 ## Update:
+
+<details>
+<summary>09/07/2023</summary>
+<br>
+ <ul>
+  <li>Kiwix (ZIM reader)</li>
+ </ul>
+</details>
+
 <details>
 <summary>27/06/2023</summary>
 <br>
