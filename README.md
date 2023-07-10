@@ -42,6 +42,14 @@ Go to [details page](details.md)
 ## Update:
 
 <details>
+<summary>10/07/2023</summary>
+<br>
+ <ul>
+  <li>Mend.io Renovate</li>
+ </ul>
+</details>
+
+<details>
 <summary>09/07/2023</summary>
 <br>
  <ul>
