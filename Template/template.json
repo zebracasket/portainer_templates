@@ -4258,7 +4258,20 @@
       },  
       "title": "Codex",
       "type": 3
-    }, 	  
+    }, 	 
+    {
+      "categories": ["ebooks", "comics"],
+      "description": "Kapowarr is a software to build and manage a comic book library, fitting in the *arr suite of software.", 
+      "logo": "",
+      "name": "kapowarr",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/kapowarr.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Kapowarr",
+      "type": 3
+    },
     {
       "categories": ["Messaging"],
       "description": "A TLS proxy relay for the Signal privacy messenger app.", 
