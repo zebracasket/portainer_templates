@@ -1,4 +1,4 @@
-~~Nov21|Dec21|Jan22|Feb22|Mar22|Apr22|May22|Jun22|Jul22|Aug22|Sep22|Oct22|Nov22|Dec22|Jan23|Feb23|Mar23|Apr2023|May23|Jun23|~~ Jul23
+~~Nov21|Dec21|Jan22|Feb22|Mar22|Apr22|May22|Jun22|Jul22|Aug22|Sep22|Oct22|Nov22|Dec22|Jan23|Feb23|Mar23|Apr2023|May23|Jun23|Jul23|~~ Aug23
 
 **July 2023: Keep on adding stuff!**
 
@@ -40,6 +40,14 @@ Go to [details page](details.md)
 
 ## App List
 ## Update:
+
+<details>
+<summary>10/08/2023</summary>
+<br>
+ <ul>
+  <li>Kapowarr</li>
+ </ul>
+</details>
 
 <details>
 <summary>10/07/2023</summary>
