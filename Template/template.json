@@ -4076,6 +4076,19 @@
       "type": 3
     },
     {
+      "categories": ["File Browsers"],
+      "description": "Pingvin Share is self-hosted file sharing platform and an alternative for WeTransfer.", 
+      "logo": "https://user-images.githubusercontent.com/58886915/166198400-c2134044-1198-4647-a8b6-da9c4a204c68.svg",
+      "name": "pingvin-share",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/pingvin.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Pingvin Share",
+      "type": 3
+    },
+    {
       "categories": ["offline"],
       "description": "Internet. Offline.Store any website on your mobile phone or computer, easily.", 
       "logo": "https://www.kiwix.org/wp-content/uploads/kiwix-logo-995x200-1.png",
