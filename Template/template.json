@@ -4689,7 +4689,7 @@
       "type": 3
     },
     {
-      "categories": ["Development", "Low Code" , "No code"],
+      "categories": ["Development", "Low-Code" , "No-code"],
       "description": "Tooljet is an Open-source low-code application development platform for building and deploying business applications.", 
       "logo": "https://uploads-ssl.webflow.com/6266634263b9179f76b2236e/63aaa161e3b3be42ec50eb6f_Logomark.svg",
       "name": "tooljet",
@@ -4768,7 +4768,7 @@
     }, 	
     {
       "categories": ["Productivity" , "Development" , "Low-code"],
-      "description": "Appsmith (www.appsmith.com) is the first open-source low code tool that helps developers build dashboards and admin panels very quickly.", 
+      "description": "Appsmith (www.appsmith.com) is the first open-source low-code tool that helps developers build dashboards and admin panels very quickly.", 
       "logo": "https://cdn-images.himalayas.app/vr60veq4neiptamhqm6qxwi3toi3",
       "name": "appsmith",
       "platform": "linux",
