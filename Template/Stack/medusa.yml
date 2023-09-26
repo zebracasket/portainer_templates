@@ -20,7 +20,7 @@ services:
       - "9009:9000"
 
   medusa-postgres:
-    image: docker pull postgres:13.9-alpine
+    image: postgres:13.9-alpine
     restart: always
     environment:
       POSTGRES_USER: postgres
@@ -28,14 +28,14 @@ services:
       POSTGRES_DB: medusa-docker
 
   medusa-redis:
-    image: redis:latest
+    redis:latest
     restart: always
 
   medusa-admin:
     build:
       context: ./admin
       dockerfile: Dockerfile.prod
-    image: admin:latest
+    admin:latest
     restart: always
     depends_on:
       - medusa-backend
@@ -49,7 +49,7 @@ services:
   medusa-storefront:
     build:
       dockerfile: Dockerfile.prod
-    image: storefront:latest
+    storefront:latest
     container_name: medusa-storefront
     restart: always
     environment:
