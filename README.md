@@ -50,7 +50,7 @@ Go to [details page](details.md)
  </ul>
 </details>
 
-
+**<details><summary>September 2023</summary>**
 <details>
 <summary>26/09/2023</summary>
 <br>
@@ -58,8 +58,9 @@ Go to [details page](details.md)
   <li>Pingvin-share</li>
  </ul>
 </details>
+</details>
 
-
+**<details><summary>August 2023</summary>**
 <details>
 <summary>10/08/2023</summary>
 <br>
@@ -67,7 +68,9 @@ Go to [details page](details.md)
   <li>Kapowarr</li>
  </ul>
 </details>
+</details>
 
+**<details><summary>July 2023</summary>**
 <details>
 <summary>10/07/2023</summary>
 <br>
@@ -82,6 +85,7 @@ Go to [details page](details.md)
  <ul>
   <li>Kiwix (ZIM reader)</li>
  </ul>
+</details>
 </details>
 
 **<details><summary>June 2023</summary>**
