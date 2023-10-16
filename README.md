@@ -84,6 +84,7 @@ Go to [details page](details.md)
  </ul>
 </details>
 
+**<details><summary>June 2023</summary>**
 <details>
 <summary>27/06/2023</summary>
 <br>
@@ -114,6 +115,7 @@ Go to [details page](details.md)
  <ul>
   <li>Shiori</li>
  </ul>
+</details>
 </details>
 
 **<details><summary>May 2023</summary>**
