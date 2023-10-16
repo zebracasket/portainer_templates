@@ -1,6 +1,6 @@
-~~Nov21|Dec21|Jan22|Feb22|Mar22|Apr22|May22|Jun22|Jul22|Aug22|Sep22|Oct22|Nov22|Dec22|Jan23|Feb23|Mar23|Apr2023|May23|Jun23|Jul23|Aug23~~|Sep23
+~~Nov21|Dec21|Jan22|Feb22|Mar22|Apr22|May22|Jun22|Jul22|Aug22|Sep22|Oct22|Nov22|Dec22|Jan23|Feb23|Mar23|Apr2023|May23|Jun23|Jul23|Aug23|Sep23|~~ Oct23
 
-**September 2023: Keep on adding stuff!**
+**October 2023: Keep on adding stuff!**
 
 
 <a href="https://www.buymeacoffee.com/bol1JWG9V" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
@@ -40,6 +40,16 @@ Go to [details page](details.md)
 
 ## App List
 ## Update:
+
+<details>
+<summary>16/10/2023</summary>
+<br>
+ <ul>
+  <li>Feedcord</li>
+  <li>Fetchcord</li>
+ </ul>
+</details>
+
 
 <details>
 <summary>26/09/2023</summary>
