@@ -42,6 +42,14 @@ Go to [details page](details.md)
 ## Update:
 
 <details>
+<summary>18/10/2023</summary>
+<br>
+ <ul>
+  <li>Bazarr (update to stack)</li>
+ </ul>
+</details>
+
+<details>
 <summary>16/10/2023</summary>
 <br>
  <ul>
