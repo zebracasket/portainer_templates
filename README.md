@@ -42,6 +42,22 @@ Go to [details page](details.md)
 ## Update:
 
 <details>
+<summary>26/10/2023</summary>
+<br>
+ <ul>
+  <li>Hauk</li>
+ </ul>
+</details>
+
+<details>
+<summary>24/10/2023</summary>
+<br>
+ <ul>
+  <li>Plane</li>
+ </ul>
+</details>
+
+<details>
 <summary>18/10/2023</summary>
 <br>
  <ul>
