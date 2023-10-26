@@ -46,6 +46,7 @@ Go to [details page](details.md)
 <br>
  <ul>
   <li>Hauk</li>
+  <li>Shaarli</li>
  </ul>
 </details>
 
