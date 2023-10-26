@@ -4498,6 +4498,19 @@
       "type": 3
     },
     {
+      "categories": ["Link sharing"],
+      "description": "The personal, minimalist, super fast, database-free, bookmarking service.", 
+      "logo": "https://github.com/shaarli/Shaarli/raw/master/doc/md/images/doc-logo.png",
+      "name": "shaarli",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/shaarli.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Shaarli",
+      "type": 3
+    },
+    {
       "categories": ["News"],
       "description": "FeedCord is a dead-simple RSS Reader designed to integrate seamlessly with Discord. With just a few configuration steps, you can have a news feed text channel up and running in your server.", 
       "logo": "",
