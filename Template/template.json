@@ -85,7 +85,6 @@
     {
       "categories": ["Social"],
       "description": "Use Tiktok with an alternative frontend, inspired by Nitter.", 
-      "logo": "",
       "name": "proxitok",
       "platform": "linux",
       "repository": {
