@@ -47,6 +47,7 @@ Go to [details page](details.md)
  <ul>
   <li>Hauk</li>
   <li>Shaarli</li>
+  <li>FlowiseAI</li>
  </ul>
 </details>
 
