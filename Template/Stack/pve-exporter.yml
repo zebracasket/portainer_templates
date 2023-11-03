@@ -6,5 +6,5 @@ services:
     ports:
       - 9221:9221
     volumes:
-      - /portainer/Files/AppData/Config/pve-exporter/pve.yml:/etc/pve.yml
+      - /portainer/Files/AppData/Config/pve-exporter:/etc/pve.yml
     restart: always
