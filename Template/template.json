@@ -4094,6 +4094,19 @@
       "type": 3
     }, 
     {
+      "categories": ["metrics"],
+      "description": "This is an exporter that exposes information gathered from Proxmox VE node for use by the Prometheus monitoring system.", 
+      "logo": "",
+      "name": "pve-exporter",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/pve-exporter.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "pve-exporter",
+      "type": 3
+    }, 	  
+    {
       "categories": ["Tools"],
       "description": "Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility.", 
       "logo": "https://grocy.info/img/grocy_logo.svg",
