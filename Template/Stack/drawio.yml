@@ -2,7 +2,7 @@
 version: '3.5'
 services:
   drawio:
-    image: jgraph/drawio
+    image: fjudith/draw.io
     container_name: drawio
     restart: unless-stopped
     ports:
@@ -15,3 +15,5 @@ services:
       CITY: Athens
       STATE: Attica
       COUNTRY_CODE: Greece
+      DRAWIO_GITLAB_URL: http://mygitlab.net
+      DRAWIO_GITLAB_ID: change_to_your_app_id
