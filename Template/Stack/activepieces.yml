@@ -42,9 +42,9 @@ services:
     container_name: postgres
     restart: unless-stopped
     environment:
-      - 'POSTGRES_DB=${AP_POSTGRES_DATABASE}'
-      - 'POSTGRES_PASSWORD=${AP_POSTGRES_PASSWORD}'
-      - 'POSTGRES_USER=${AP_POSTGRES_USERNAME}'
+      - POSTGRES_DB=${AP_POSTGRES_DATABASE}
+      - POSTGRES_PASSWORD=${AP_POSTGRES_PASSWORD}
+      - POSTGRES_USER=${AP_POSTGRES_USERNAME}
     volumes:
       - /portainer/Files/AppData/Config/activepieces/postgres_data:/var/lib/postgresql/data
     networks:
