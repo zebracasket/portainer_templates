@@ -15,11 +15,11 @@ services:
     ## It's advisable to consult the documentation and use the tools/deploy.sh to generate the passwords, keys, instead of manually filling them.
       - AP_ENGINE_EXECUTABLE_PATH=dist/packages/engine/main.js
      ## Random Long Password (Optional for community edition)
-      - AP_API_KEY=
+      - AP_API_KEY=superduperlongranDOMpwd
      ## 256 bit encryption key, 32 hex character
       - AP_ENCRYPTION_KEY= 
       ## JWT Secret
-      - AP_JWT_SECRET=
+      - AP_JWT_SECRET=JWT2square_changeme
       - AP_ENVIRONMENT=prod
       - AP_FRONTEND_URL=http://localhost:8080
       - AP_WEBHOOK_TIMEOUT_SECONDS=30
@@ -28,7 +28,7 @@ services:
       - AP_POSTGRES_HOST=postgres
       - AP_POSTGRES_PORT=5432
       - AP_POSTGRES_USERNAME=postgres
-      - AP_POSTGRES_PASSWORD=
+      - AP_POSTGRES_PASSWORD=potgresowf_changeme
       - AP_EXECUTION_MODE=UNSANDBOXED
       - AP_REDIS_HOST=redis
       - AP_REDIS_PORT=6379
