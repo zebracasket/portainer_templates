@@ -1,0 +1,17 @@
+#This compose file adds draw.io to your stack
+version: '3.5'
+services:
+  drawio:
+    image: jgraph/drawio
+    container_name: drawio
+    restart: unless-stopped
+    ports:
+      - 28181:8080
+      - 28443:8443
+    environment:
+      PUBLIC_DNS: domain
+      ORGANISATION_UNIT: unit
+      ORGANISATION: org
+      CITY: Athens
+      STATE: Attica
+      COUNTRY_CODE: Greece
