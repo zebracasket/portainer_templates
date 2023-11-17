@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  netbootxyz:
+    image: ghcr.io/netbootxyz/netbootxyz
+    container_name: netbootxyz
+    environment:
+      # - MENU_VERSION=2.0.47 # optional, sets menus version, unset uses latest
+    volumes:
+      - /portainer/Files/AppData/Config/netbootxyz/config:/config # optional
+      - /portainer/Files/AppData/Config/netbootxyz/assets:/assets # optional
+    ports:
+      - 3300:3000
+      - 369:69/udp
+      - 38080:80 #optional
+    restart: unless-stopped
