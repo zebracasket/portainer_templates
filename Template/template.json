@@ -4054,6 +4054,19 @@
       "type": 3
     },
     {
+      "categories": ["Development"],
+      "description": "netboot.xyz is a convenient place to boot into any type of operating system or utility disk without the need of having to go spend time retrieving the ISO just to run it", 
+      "logo": "https://netboot.xyz/img/nbxyz-logo.svg",
+      "name": "netboot.xyz",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/netbootxyz.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Netboot.xyz",
+      "type": 3
+    },
+    {
       "categories": ["File Browsers"],
       "description": "Pingvin Share is self-hosted file sharing platform and an alternative for WeTransfer.", 
       "logo": "https://user-images.githubusercontent.com/58886915/166198400-c2134044-1198-4647-a8b6-da9c4a204c68.svg",
