@@ -4498,6 +4498,19 @@
       "type": 3
     },
     {
+      "categories": ["Productivity", "Drawing"],
+      "description": "draw.io (formerly Diagramly) is free online diagram software. You can use it as a flowchart maker, network diagram software, to create UML online, as an ER diagram tool, to design database schema, to build BPMN online, as a circuit diagram maker, and more. draw.io can import .vsdx, Gliffy™ and Lucidchart™ files.", 
+      "logo": "https://appedreview.com/app/wp-content/uploads/2016/10/Screen-Shot-2016-10-18-at-8.28.57-AM-768x766.png",
+      "name": "drawio",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/drawio.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Draw.io",
+      "type": 3
+    },
+    {
       "categories": ["Tracking"],
       "description": "Hauk is a fully open source, self-hosted location sharing service. Install the backend code on a PHP-compatible web server, install the companion app on your phone, and you're good to go!", 
       "logo": "https://github.com/bilde2910/Hauk/raw/master/frontend/assets/logo.svg",
