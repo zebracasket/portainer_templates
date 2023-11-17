@@ -7,7 +7,7 @@ services:
     ## Enable the following line if you already use AP_EXECUTION_MODE with SANDBOXED or old activepieces, checking the breaking change documentation for more info.
     ## privileged: true
     ports:
-      - '8080:80'
+      - 38080:80
     depends_on:
       - ap-postgres
       - ap-redis
@@ -38,7 +38,7 @@ services:
     networks:
       - activepieces
   ap-postgres:
-    image: 'postgres:14.4'
+    image: postgres:14.4
     container_name: postgres
     restart: unless-stopped
     environment:
@@ -50,7 +50,7 @@ services:
     networks:
       - activepieces
   ap-redis:
-    image: 'redis:7.0.7'
+    image: redis:7.0.7
     container_name: redis
     restart: unless-stopped
     volumes:
