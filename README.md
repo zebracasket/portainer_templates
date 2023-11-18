@@ -46,8 +46,8 @@ Go to [details page](details.md)
 <br>
  <ul>
   <li>Activepieces</li>
-  <li>Draw.io</li>>
-  <li>netboot.xyz</li>li
+  <li>Draw.io</li>
+  <li>netboot.xyz</li>
   </ul>
 </details>
 
