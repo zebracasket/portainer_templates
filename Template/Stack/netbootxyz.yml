@@ -1,10 +1,15 @@
 version: "2.1"
 services:
   netbootxyz:
-    image: ghcr.io/netbootxyz/netbootxyz
+    image: lscr.io/linuxserver/netbootxyz:latest
     container_name: netbootxyz
     environment:
-      # - MENU_VERSION=2.0.47 # optional, sets menus version, unset uses latest
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Athens
+      - MENU_VERSION=1.9.9 #optional
+      - PORT_RANGE=30000:30010 #optional
+      - SUBFOLDER=/ #optional
     volumes:
       - /portainer/Files/AppData/Config/netbootxyz/config:/config # optional
       - /portainer/Files/AppData/Config/netbootxyz/assets:/assets # optional
