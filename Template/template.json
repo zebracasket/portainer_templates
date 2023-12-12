@@ -4527,7 +4527,7 @@
       "categories": ["Management"],
       "description": "Deploy compose files, start/stop containers, delete unused images, view logs", 
       "logo": "https://dokemon.dev/logo/dokemon-dark-medium.svg",
-      "name": "dockge",
+      "name": "dokemon",
       "platform": "linux",
       "repository": {
 	    "stackfile": "Template/Stack/dokemon.yml",
