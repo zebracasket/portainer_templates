@@ -5254,7 +5254,7 @@
       "type": 3
     },
     {
-      "categories": ["Blogging"],
+      "categories": ["Blog"],
       "description": "Create your own platform on the web. Ghost is a powerful app for new-media creators to publish, share, and grow a business around their content. It comes with modern tools to build a website, publish content, send newsletters & offer paid subscriptions to members.", 
       "logo": "https://ghost.org/images/logos/logo-black-1.webp",
       "name": "ghost",
