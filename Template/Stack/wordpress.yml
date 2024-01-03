@@ -9,7 +9,7 @@ services:
     ports:
       - 8195:80
     depends_on:
-      db:
+      wordpress_db:
         condition: service_started
       redis:
         condition: service_healthy
