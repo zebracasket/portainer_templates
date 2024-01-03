@@ -4122,7 +4122,7 @@
     {
       "categories": ["Blog", "CMS"],
       "description": "WordPress is the simplest, most popular way to create your own website or blog.", 
-      "logo": "https://en.wikipedia.org/wiki/WordPress.com#/media/File:WordPress_blue_logo.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/800px-WordPress_blue_logo.svg.png",
       "name": "wordpress",
       "platform": "linux",
       "repository": {
