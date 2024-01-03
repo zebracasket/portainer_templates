@@ -4120,6 +4120,19 @@
       "type": 3
     }, 	  
     {
+      "categories": ["Blog", "CMS"],
+      "description": "WordPress is the simplest, most popular way to create your own website or blog.", 
+      "logo": "https://en.wikipedia.org/wiki/WordPress.com#/media/File:WordPress_blue_logo.svg",
+      "name": "wordpress",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/wordpress.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Wordpress",
+      "type": 3
+    },	  
+    {
       "categories": ["metrics"],
       "description": "This is an exporter that exposes information gathered from Proxmox VE node for use by the Prometheus monitoring system.", 
       "logo": "",
