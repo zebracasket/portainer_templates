@@ -11,7 +11,7 @@ services:
     depends_on:
       wordpress_db:
         condition: service_started
-      redis:
+      wordpress_redis:
         condition: service_healthy
       phpmyadmin:
         condition: service_healthy
