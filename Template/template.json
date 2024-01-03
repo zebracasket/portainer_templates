@@ -4107,6 +4107,19 @@
       "type": 3
     }, 
     {
+      "categories": ["Social"],
+      "description": "Webtrees is the web’s leading online collaborative genealogy application. [GEDCOM files support]", 
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_webtrees.svg/400px-Logo_webtrees.svg.png",
+      "name": "webtrees",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/webtrees.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Webtrees",
+      "type": 3
+    }, 	  
+    {
       "categories": ["metrics"],
       "description": "This is an exporter that exposes information gathered from Proxmox VE node for use by the Prometheus monitoring system.", 
       "logo": "",
