@@ -48,6 +48,7 @@ Go to [details page](details.md)
 <br>
  <ul>
   <li>Webtrees</li>
+  <li>Wordpress</li>
   </ul>
 </details>
 
