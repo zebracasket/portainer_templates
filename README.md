@@ -43,7 +43,7 @@ Go to [details page](details.md)
 ## App List
 ## Update:
 
-<summary>21/02/2024</summary>
+<summary>26/02/2024</summary>
 <br>
  <ul>
   <li>Chibisafe</li>
