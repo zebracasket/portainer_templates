@@ -4080,6 +4080,19 @@
       "type": 3
       },
       {
+      "categories": ["PDF Tools", "Productivity"],
+      "description": "This is a powerful locally hosted web based PDF manipulation tool using docker that allows you to perform various operations on PDF files, such as splitting merging, converting, reorganizing, adding images, rotating, compressing, and more.", 
+      "logo": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/docs/stirling.png",
+      "name": "stirling-pdf",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "Template/Stack/stirling-pdf.yml",
+	    "url": "https://github.com/xneo1/portainer_templates"
+      },  
+      "title": "Stirling-PDF",
+      "type": 3
+      },
+      {
       "categories": ["File Browsers"],
       "description": "Chibisafe is a modern and self-hosted take on file uploading services that can handle anything you throw at it thanks to it's robust and fast API, chunked uploads support and more.", 
       "logo": "https://chibisafe.moe/logo.svg",
