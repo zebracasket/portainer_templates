@@ -42,6 +42,14 @@ Go to [details page](details.md)
 ## Update:
 
 <details>
+<summary>11/03/2024</summary>
+<br>
+ <ul>
+  <li>Stirling-PDF</li>
+  </ul>
+</details>
+
+<details>
 <summary>04/03/2024</summary>
 <br>
  <ul>
