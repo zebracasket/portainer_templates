@@ -1,9 +1,9 @@
-version: '3.3'
+version: "3.3"
 services:
   stirling-pdf:
     image: frooodle/s-pdf:latest
     ports:
-      - '8180:8080'
+      - 8180:8080
     volumes:
       - /portainer/Files/AppData/Config/tesseract-training-data:/usr/share/tesseract-ocr/4.00/tessdata #Required for extra OCR languages
       - /portainer/Files/AppData/Config/stirling-pdf:/configs
