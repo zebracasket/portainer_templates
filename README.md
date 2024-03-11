@@ -40,7 +40,7 @@ Go to [details page](details.md)
 
 ## App List
 ## Update:
-
+<details>
 <summary>26/02/2024</summary>
 <br>
  <ul>
