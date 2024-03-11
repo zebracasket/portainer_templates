@@ -40,6 +40,15 @@ Go to [details page](details.md)
 
 ## App List
 ## Update:
+
+<details>
+<summary>04/03/2024</summary>
+<br>
+ <ul>
+  <li>Pingvin-Share</li>
+  </ul>
+</details>
+
 <details>
 <summary>26/02/2024</summary>
 <br>
