@@ -1,0 +1,19 @@
+you need to base64 encode this and also if you only put your urls it will not work. it's a back process inside the cloudflare worker.
+
+So if you want multi URL :
+
+- you take my URL (https://templates-portainer.ibaraki.app)
+
+- you take your domains (["https://something.url.tld", "https://something.else.tld"])
+
+- you encode them in base64 (https://www.base64encode.org/)
+
+- you take the result and put it after my url (https://templates-portainer.ibaraki.app/?templates=<base64>)
+
+Portainer does not support multi URL by default. That's why i did this.
+
+If you want only your templates i can create another cloudflare worker without the default urls and services i put.
+
+
+Source: https://www.reddit.com/r/portainer/comments/14m11d8/comment/jy8uieb/
+Credits: https://git.ibaraki.app/-/snippets/3
