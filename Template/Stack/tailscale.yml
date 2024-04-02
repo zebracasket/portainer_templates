@@ -13,3 +13,18 @@ services:
         - sys_module
       command: tailscaled
       restart: unless-stopped
+
+
+
+#version: "3.3"
+#services:
+#    netbird:
+#        container_name: netbird
+#        hostname: PEER_NAME # This will become the netbird device name
+#        cap_add:
+#            - NET_ADMIN
+#            - SYS_ADMIN
+#            - SYS_RESOURCE
+#        environment:
+#            - NB_SETUP_KEY=key
+#        image: netbirdio/netbird:latest
